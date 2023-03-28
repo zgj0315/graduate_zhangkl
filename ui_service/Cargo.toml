@@ -6,5 +6,7 @@ version = "0.1.0"
 [dependencies]
 axum = "0.6"
 dev_util = "0.1"
+lazy_static = "1.4"
 log = "0.4"
+serde_json = "1.0"
 tokio = {version = "1.0", features = ["full"]}

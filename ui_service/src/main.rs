@@ -1,7 +1,12 @@
-use axum::{response::Html, routing::get, Router};
+use axum::{routing::get, Json, Router};
 use dev_util::log::log_init;
-use std::net::SocketAddr;
+use lazy_static::lazy_static;
+use serde_json::Value;
+use std::{fs::File, io::BufReader, net::SocketAddr};
 
+lazy_static! {
+    static ref FAQ: Value = load_faq();
+}
 #[tokio::main]
 async fn main() {
     log_init();
@@ -14,7 +19,27 @@ async fn main() {
         .unwrap();
 }
 
-async fn handler() -> Html<&'static str> {
+async fn handler() -> Json<Value> {
     log::info!("in handler");
-    Html("<h1>Hello, World!</h1>")
+    let faq = FAQ.clone();
+    Json(faq)
+}
+
+fn load_faq() -> Value {
+    let file = File::open("./data/faq.json").unwrap();
+    let reader = BufReader::new(file);
+    let faq: Value = serde_json::from_reader(reader).unwrap();
+    faq
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+    // cargo test tests::test_load_faq
+    #[test]
+    fn test_load_faq() {
+        log_init();
+        let faq = load_faq();
+        log::info!("{:?}", faq);
+    }
 }
