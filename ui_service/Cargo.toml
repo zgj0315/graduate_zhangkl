@@ -1,0 +1,10 @@
+[package]
+edition = "2021"
+name = "ui_service"
+version = "0.1.0"
+
+[dependencies]
+axum = "0.6"
+dev_util = "0.1"
+log = "0.4"
+tokio = {version = "1.0", features = ["full"]}
