@@ -36,7 +36,10 @@ async fn handler() -> Json<Value> {
 }
 
 fn load_faq() -> Value {
-    let file = File::open("./data/faq.json").unwrap();
+    let path = PathBuf::from(env!("CARGO_MANIFEST_DIR"))
+        .join("data")
+        .join("faq.json");
+    let file = File::open(path).unwrap();
     let reader = BufReader::new(file);
     let faq: Value = serde_json::from_reader(reader).unwrap();
     faq
