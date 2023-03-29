@@ -1,8 +1,9 @@
 use axum::{routing::get, Json, Router};
+use axum_server::tls_rustls::RustlsConfig;
 use dev_util::log::log_init;
 use lazy_static::lazy_static;
 use serde_json::Value;
-use std::{fs::File, io::BufReader, net::SocketAddr};
+use std::{fs::File, io::BufReader, net::SocketAddr, path::PathBuf};
 
 lazy_static! {
     static ref FAQ: Value = load_faq();
@@ -10,10 +11,19 @@ lazy_static! {
 #[tokio::main]
 async fn main() {
     log_init();
+    let cert = PathBuf::from(env!("CARGO_MANIFEST_DIR"))
+        .join("data")
+        .join("zgj0315-ca.crt");
+    log::info!("cert: {:?}", cert);
+    let key = PathBuf::from(env!("CARGO_MANIFEST_DIR"))
+        .join("data")
+        .join("zgj0315-ca.key");
+    log::info!("key: {:?}", key);
+    let config = RustlsConfig::from_pem_file(cert, key).await.unwrap();
     let app = Router::new().route("/", get(handler));
-    let addr = SocketAddr::from(([0, 0, 0, 0], 3000));
+    let addr = SocketAddr::from(([0, 0, 0, 0], 3443));
     log::info!("listening on {}", addr);
-    axum::Server::bind(&addr)
+    axum_server::bind_rustls(addr, config)
         .serve(app.into_make_service())
         .await
         .unwrap();
