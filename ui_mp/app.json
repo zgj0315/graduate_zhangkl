@@ -1,18 +1,37 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/article/article01",
-    "pages/article/article02",
-    "pages/article/article03",
-    "pages/article/article04",
-    "pages/searchbar/searchbar",
+    "pages/channel/channel01",
+    "pages/channel/channel02",
+    "pages/channel/channel03",
+    "pages/channel/channel04",
+    "pages/channel/channel05",
+    "pages/channel/channel06",
+    "pages/channel/channel07",
+    "pages/channel/channel08",
+    "pages/personal/personal",
     "pages/logs/logs"
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "XXX系统",
+    "navigationBarTitleText": "智康妇",
     "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页"
+    }, {
+      "pagePath": "pages/channel/channel06",
+      "text": "常见问题解答"
+    }, {
+      "pagePath": "pages/channel/channel07",
+      "text": "康复咨询"
+    }, {
+      "pagePath": "pages/personal/personal",
+      "text": "我的"
+    }]
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"
