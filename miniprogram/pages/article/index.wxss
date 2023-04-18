@@ -1,1 +1,6 @@
 /* pages/article/index.wxss */
+@import '../common.wxss';
+
+image {
+  margin: 4px 0;
+}

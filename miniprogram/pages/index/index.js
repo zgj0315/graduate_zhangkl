@@ -11,11 +11,11 @@ Page({
       showItem: false,
       item: [{
         title: '医生出诊信息',
-        page: 'getOpenId'
+        page: 'article'
       },
        {
         title: '护士护理专长',
-        page: 'getMiniProgramCode'
+        page: 'article'
       },
     ]
     }, {
@@ -24,10 +24,10 @@ Page({
       showItem: false,
       item: [{
         title: '三大肿瘤症状',
-        page: 'createCollection'
+        page: 'article'
       }, {
         title: '三大肿瘤筛查',
-        page: 'updateRecord'
+        page: 'article'
       }]
     }, {
       title: '术后护理行为建议',
@@ -35,13 +35,13 @@ Page({
       showItem: false,
       item: [{
         title: '术后护理知识',
-        page: 'uploadFile'
+        page: 'article'
       }, {
         title: '居家观察及自我康复',
-        page: 'uploadFile'
+        page: 'article'
       }, {
         title: '复查及随访',
-        page: 'uploadFile'
+        page: 'article'
       }]
     }, {
       title: '化疗管理',
@@ -49,7 +49,7 @@ Page({
       showItem: false,
       item: [{
         title: '化疗期间注意事项',
-        page: 'deployService'
+        page: 'article'
       }]
     }, {
       title: '并发症自我管理及预警',
@@ -57,10 +57,10 @@ Page({
       showItem: false,
       item: [{
         title: '并发症症状自评',
-        page: 'deployService'
+        page: 'article'
       }, {
         title: '并发症风险预警',
-        page: 'deployService'
+        page: 'article'
       }]
     }, {
       title: '心理健康',
@@ -68,13 +68,13 @@ Page({
       showItem: false,
       item: [{
         title: '放松的音乐',
-        page: 'deployService'
+        page: 'article'
       }, {
         title: '放松的图片',
-        page: 'deployService'
+        page: 'article'
       }, {
         title: '正性案例',
-        page: 'deployService'
+        page: 'article'
       }]
     }],
     envList,
