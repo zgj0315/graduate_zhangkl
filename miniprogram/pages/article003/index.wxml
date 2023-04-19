@@ -1,3 +1,65 @@
-<!--pages/article003/index.wxml-->
-<text>pages/article003/index.wxml</text>
-<text>Coming Soon</text>
+<view class="page" data-weui-theme="{{theme}}">
+  <view class="page__bd">
+    <view class="weui-panel">
+      <view class="weui-panel__hd">护士护理专长</view>
+      <view class="weui-panel__bd">
+        <view class="weui-media-box weui-media-box_text">
+          <view class="weui-media-box__title weui-media-box__title_in-text">张楷丽</view>
+          <view class="weui-media-box__desc">专长：妇科肿瘤及盆底疾病护理、静脉治疗专科护理</view>
+        </view>
+        <view class="weui-media-box weui-media-box_text">
+          <view class="weui-media-box__title weui-media-box__title_in-text">王伟</view>
+          <view class="weui-media-box__desc">专长：妇科肿瘤疾病护理</view>
+        </view>
+        <view class="weui-media-box weui-media-box_text">
+          <view class="weui-media-box__title weui-media-box__title_in-text">高立华</view>
+          <view class="weui-media-box__desc">专长：妇科肿瘤疾病护理</view>
+        </view>
+        <view class="weui-media-box weui-media-box_text">
+          <view class="weui-media-box__title weui-media-box__title_in-text">黄云</view>
+          <view class="weui-media-box__desc">专长：老年妇科疾病护理</view>
+        </view>
+        <view class="weui-media-box weui-media-box_text">
+          <view class="weui-media-box__title weui-media-box__title_in-text">周秀丽</view>
+          <view class="weui-media-box__desc">专长：妇科肿瘤疾病护理、静脉治疗专科护理</view>
+        </view>
+        <view class="weui-media-box weui-media-box_text">
+          <view class="weui-media-box__title weui-media-box__title_in-text">付丽</view>
+          <view class="weui-media-box__desc">专长：妇科急救护理、静脉治疗专科护理</view>
+        </view>
+        <view class="weui-media-box weui-media-box_text">
+          <view class="weui-media-box__title weui-media-box__title_in-text">李雪</view>
+          <view class="weui-media-box__desc">专长：老年妇科疾病护理、常见妇科疾病护理</view>
+        </view>
+        <view class="weui-media-box weui-media-box_text">
+          <view class="weui-media-box__title weui-media-box__title_in-text">王孝严</view>
+          <view class="weui-media-box__desc">专长：妇科盆底疾病、常见疾病护理</view>
+        </view>
+        <view class="weui-media-box weui-media-box_text">
+          <view class="weui-media-box__title weui-media-box__title_in-text">刘妍</view>
+          <view class="weui-media-box__desc">专长：老年妇科疾病护理、常见妇科疾病护理</view>
+        </view>
+        <view class="weui-media-box weui-media-box_text">
+          <view class="weui-media-box__title weui-media-box__title_in-text">吕文艺</view>
+          <view class="weui-media-box__desc">专长：一般妇科疾病护理、妇科恶性肿瘤化疗护理</view>
+        </view>
+        <view class="weui-media-box weui-media-box_text">
+          <view class="weui-media-box__title weui-media-box__title_in-text">李雪</view>
+          <view class="weui-media-box__desc">专长：一般妇科疾病护理、淋巴水肿护理</view>
+        </view>
+        <view class="weui-media-box weui-media-box_text">
+          <view class="weui-media-box__title weui-media-box__title_in-text">田宇</view>
+          <view class="weui-media-box__desc">专长：一般妇科疾病护理、术后感染护理</view>
+        </view>
+        <view class="weui-media-box weui-media-box_text">
+          <view class="weui-media-box__title weui-media-box__title_in-text">王宁航</view>
+          <view class="weui-media-box__desc">专长：一般妇科疾病护理</view>
+        </view>
+        <view class="weui-media-box weui-media-box_text">
+          <view class="weui-media-box__title weui-media-box__title_in-text">陈莹</view>
+          <view class="weui-media-box__desc">专长：一般妇科疾病护理</view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
