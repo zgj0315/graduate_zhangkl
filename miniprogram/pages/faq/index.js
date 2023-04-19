@@ -98,5 +98,13 @@ Page({
       }
     })
     // console.log('faqList: ', this.data.faqList)
-  }
+  },
+
+  toDetail(e) {
+    const {id: faqId} = e.currentTarget.dataset
+    // console.log('faqId: ', faqId)
+    wx.navigateTo({
+      url: `/pages/faq-detail/index?faqId=${faqId}`,
+    })
+  },
 })

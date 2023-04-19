@@ -2,6 +2,7 @@
   "pages": [
     "pages/index/index",
     "pages/faq/index",
+    "pages/faq-detail/index",
     "pages/consult/index",
     "pages/personal/index",
     "pages/article/index",
