@@ -1,11 +1,15 @@
 // pages/faq/index.js
+
+const app = getApp()
+
 Page({
 
   /**
    * Page initial data
    */
   data: {
-    searchKeyword: '123'
+    searchKeyword: '',
+    faqList: []
   },
 
   /**
@@ -26,15 +30,17 @@ Page({
    * Lifecycle function--Called when page show
    */
   onShow() {
-    console.log('begin show')
-    const db = wx.cloud.database()
-    db.collection('zkf_faq').doc('5dfc487a643cae4a00052a8509dd22ab').get({
-      success: function(res) {
-        // res.data 包含该记录的数据
-        console.log(res.data)
-      }
-    })
-    console.log('end show')
+    // console.log('begin show')
+    // const db = wx.cloud.database()
+    // db.collection('zkf_faq').doc('5dfc487a643cae4a00052a8509dd22ab').get({
+    //   success: function(res) {
+    //     // res.data 包含该记录的数据
+    //     console.log(res.data)
+    //   }
+    // })
+    // console.log('openid: ', app.globalData.openid)
+    // console.log('searchKeyword: ', this.data.searchKeyword)
+    // console.log('end show')
   },
 
   /**
@@ -73,16 +79,24 @@ Page({
   },
 
   searchFAQ() {
-    console.log('searchFAQ')
-    console.log(this.data.searchKeyword)
+    let self = this
     const db = wx.cloud.database()
     db.collection('zkf_faq').where({
-      keywords: this.data.searchKeyword
+      keywords: self.data.searchKeyword
     }).get({
       success: function(res) {
-        // res.data 包含该记录的数据
-        console.log(res.data)
+        self.setData({
+          faqList: res.data
+        })
+        // console.log('[数据库] [查询记录] 成功: ', res)
+      },
+      fail: err => {
+        console.error('[数据库] [查询记录] 失败：', err)
+      },
+      complete: () => {
+        // console.log('[数据库] [查询记录] 完成')
       }
     })
+    // console.log('faqList: ', this.data.faqList)
   }
 })
