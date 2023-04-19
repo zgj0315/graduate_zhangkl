@@ -1,3 +1,25 @@
-<!--pages/faq/index.wxml-->
-<text>pages/faq/index.wxml</text>
-<text>Coming Soon</text>
+<view class="container page" data-weui-theme="{{theme}}">
+  <view class="page-body">
+    <view class="page-section">
+      <view class="weui-cells weui-cells_after-title">
+        <view class="weui-cell weui-cell_input">
+          <view class="weui-cell__hd" style="margin-right: 5px">
+            <icon type="search" size="20"></icon>
+          </view>
+          <view class="weui-cell__bd">
+            <input class="weui-input" placeholder="输入搜索关键字" model:value="{{searchKeyword}}" bindinput="searchFAQ" bindconfirm="searchFAQ" />
+          </view><button class="mini-btn" type="default" size="mini" bindtap="searchFAQ">搜索</button>
+        </view>
+      </view>
+      <view class="weui-cells__title" wx:if="{{faqList.length}}">问题列表</view>
+      <view class="weui-cells weui-cells_after-title" wx:if="{{faqList.length}}">
+        <view wx:for="{{faqList}}" wx:key="_id" class="weui-cell weui-cell_access" hover-class="weui-cell_active" data-id="{{item._id}}" bindtap="toDetail">
+          <view class="weui-cell__hd" data-id="{{item._id}}" data-index="{{index}}" catchtap="toggleComplete" style="margin-right: 5px">
+          </view>
+          <view class="weui-cell__bd">{{item.question}}</view>
+          <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
