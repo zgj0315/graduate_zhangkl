@@ -49,7 +49,7 @@ Page({
       showItem: false,
       item: [{
         title: '化疗期间注意事项',
-        page: 'article'
+        page: 'article001'
       }]
     }, {
       title: '并发症自我管理及预警',

@@ -5,6 +5,7 @@
     "pages/consult/index",
     "pages/personal/index",
     "pages/article/index",
+    "pages/article001/index",
     "pages/logs/index"
   ],
   "window": {
