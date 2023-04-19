@@ -11,11 +11,11 @@ Page({
       showItem: false,
       item: [{
         title: '医生出诊信息',
-        page: 'article'
+        page: 'article002'
       },
        {
         title: '护士护理专长',
-        page: 'article'
+        page: 'article003'
       },
     ]
     }, {
@@ -24,10 +24,10 @@ Page({
       showItem: false,
       item: [{
         title: '三大肿瘤症状',
-        page: 'article'
+        page: 'article004'
       }, {
         title: '三大肿瘤筛查',
-        page: 'article'
+        page: 'article005'
       }]
     }, {
       title: '术后护理行为建议',
@@ -35,13 +35,13 @@ Page({
       showItem: false,
       item: [{
         title: '术后护理知识',
-        page: 'article'
+        page: 'article006'
       }, {
         title: '居家观察及自我康复',
-        page: 'article'
+        page: 'article007'
       }, {
         title: '复查及随访',
-        page: 'article'
+        page: 'article008'
       }]
     }, {
       title: '化疗管理',
@@ -57,10 +57,10 @@ Page({
       showItem: false,
       item: [{
         title: '并发症症状自评',
-        page: 'article'
+        page: 'article009'
       }, {
         title: '并发症风险预警',
-        page: 'article'
+        page: 'article010'
       }]
     }, {
       title: '心理健康',
@@ -68,13 +68,13 @@ Page({
       showItem: false,
       item: [{
         title: '放松的音乐',
-        page: 'article'
+        page: 'article011'
       }, {
         title: '放松的图片',
-        page: 'article'
+        page: 'article012'
       }, {
         title: '正性案例',
-        page: 'article'
+        page: 'article013'
       }]
     }],
     envList,

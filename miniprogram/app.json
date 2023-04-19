@@ -6,6 +6,18 @@
     "pages/personal/index",
     "pages/article/index",
     "pages/article001/index",
+    "pages/article002/index",
+    "pages/article003/index",
+    "pages/article004/index",
+    "pages/article005/index",
+    "pages/article006/index",
+    "pages/article007/index",
+    "pages/article008/index",
+    "pages/article009/index",
+    "pages/article010/index",
+    "pages/article011/index",
+    "pages/article012/index",
+    "pages/article013/index",
     "pages/logs/index"
   ],
   "window": {

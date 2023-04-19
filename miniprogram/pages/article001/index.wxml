@@ -13,10 +13,6 @@
           <view class="weui-article__p">
             而子宫颈癌，子宫内膜癌化疗可作为综合治疗中的重要组成部分，除早期病例可单用手术外，多数也采用多学科综合治疗，有目的的配合手术或放疗，也可以提高治愈率。对晚期和复发妇科恶性肿瘤，化疗可改善症状，延长生命，少数病例也可获得根治。
           </view>
-          <view class="weui-article__p">
-            <image class="weui-article__img" src="../../images/pic_article.png" mode="aspectFit" style="height: 180px" />
-            <image class="weui-article__img" src="../../images/pic_article.png" mode="aspectFit" style="height: 180px" />
-          </view>
         </view>
       </view>
       <view class="weui-article__h1">二、化疗方案选择</view>
