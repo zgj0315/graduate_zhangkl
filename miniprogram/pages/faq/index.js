@@ -26,7 +26,15 @@ Page({
    * Lifecycle function--Called when page show
    */
   onShow() {
-
+    console.log('begin show')
+    const db = wx.cloud.database()
+    db.collection('zkf_faq').doc('5dfc487a643cae4a00052a8509dd22ab').get({
+      success: function(res) {
+        // res.data 包含该记录的数据
+        console.log(res.data)
+      }
+    })
+    console.log('end show')
   },
 
   /**
