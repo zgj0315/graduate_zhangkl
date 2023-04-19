@@ -1,0 +1,283 @@
+<view class="page" data-weui-theme="{{theme}}">
+  <view class="page__hd">
+    <view class="page__title">化疗管理</view>
+  </view>
+  <view class="page__bd">
+    <view class="weui-article">
+      <view class="weui-article__h1">一、妇科恶性肿瘤化疗现状</view>
+      <view class="weui-article__section">
+        <view class="weui-article__section">
+          <view class="weui-article__p">
+            近年来肿瘤化疗进展迅速，化疗在妇科恶性肿瘤中的地位日益提高。目前，卵巢恶性生殖细胞肿瘤术后补充化疗，多数亦能得到根治。对卵巢癌而言，除少数早期病例外，均需术后化疗，否则即使手术切除，绝大多数仍会复发。因此，术后化疗与首次手术处于同样重要的地位。
+          </view>
+          <view class="weui-article__p">
+            而子宫颈癌，子宫内膜癌化疗可作为综合治疗中的重要组成部分，除早期病例可单用手术外，多数也采用多学科综合治疗，有目的的配合手术或放疗，也可以提高治愈率。对晚期和复发妇科恶性肿瘤，化疗可改善症状，延长生命，少数病例也可获得根治。
+          </view>
+        </view>
+      </view>
+      <view class="weui-article__h1">二、化疗方案选择</view>
+      <view class="weui-article__section">
+        <view class="weui-article__section">
+          <view class="weui-article__p">
+            临床用药必须了解药物特性，又要考虑个体特点。实施临床用药个体化，药物作用于不同个体会产生不同的反应，其影响因素较多，以临床实际应用为准。
+          </view>
+        </view>
+      </view>
+      <view class="weui-article__h1">三、妇科恶性肿瘤化疗的类型及方案</view>
+      <view class="weui-article__section">
+        <view class="weui-article__h2">1、根治性化疗</view>
+        <view class="weui-article__section">
+          <view class="weui-article__p">
+            单用化疗可根治的妇科恶性肿瘤如恶性滋养细胞肿瘤，晚期病例都要用联合化疗，要求足量，及时以求首次治疗的成功。
+          </view>
+        </view>
+        <view class="weui-article__h2">2、辅助化疗</view>
+        <view class="weui-article__section">
+          <view class="weui-article__p">
+            是指肿瘤原发灶经手术和放疗控制后给予全身化疗。主要目的是针对可能存在的微转移病灶，防止肿瘤的复发，转移。
+          </view>
+        </view>
+        <view class="weui-article__h2">3、新辅助化疗</view>
+        <view class="weui-article__section">
+          <view class="weui-article__p">
+            对晚期病例在手术或放疗之前，先使用化疗，通过化疗使肿瘤缩小利于手术或放疗，提高手术切除率，减少并发症，如卵巢癌，子宫颈癌的新辅助化疗。
+          </view>
+        </view>
+        <view class="weui-article__h2">4、同期放化疗</view>
+        <view class="weui-article__section">
+          <view class="weui-article__p">
+            化疗和放疗同时进行，这种化疗除使肿瘤缩小和消灭微小转移灶和放疗有协同抗癌的作用。
+          </view>
+        </view>
+      </view>
+      <view class="weui-article__h1">四、常用化疗前预防性药物</view>
+      <view class="weui-article__section">
+        <view class="weui-article__h2">（一）止吐</view>
+        <view class="weui-article__section">
+          <view class="weui-article__h3">1、阿瑞匹坦胶囊</view>
+          <view class="weui-article__p">
+            （1）用于预防化疗引起的急性和延迟性恶心、呕吐等不良反应，减少患者的痛苦。
+          </view>
+          <view class="weui-article__p">
+            （2）服用方法：化疗当日：化疗前一小时125mg
+            第二天：6AM 80mg
+            第三天：6AM 80mg
+          </view>
+        </view>
+        <view class="weui-article__section">
+          <view class="weui-article__h3">2、托烷司琼</view>
+          <view class="weui-article__p">
+            （1）是强效止吐药，可以治疗胃肠不良反应，一般用来预防和治疗化疗后出现恶心、呕吐的症状，尤其是对呕吐的治疗效果很不错。
+          </view>
+          <view class="weui-article__p">
+            （2）使用方法：化疗用药前静脉注射
+          </view>
+        </view>
+        <view class="weui-article__section">
+          <view class="weui-article__h3">3、法莫替丁</view>
+          <view class="weui-article__p">
+            （1）化疗药物都有一定的胃肠反应，所以可以应用法莫替丁进行预防和治疗，预防胃肠道不良反应，减少胃溃疡，以及黑便、消化道出血等并发症的发生。法莫替丁在化疗过程的作用比较明显，可以减轻化疗过程中相关胃肠功能的不良反应，增加患者对化疗的耐受性。
+          </view>
+          <view class="weui-article__p">
+            （2）使用方法：化疗用药前静脉注射
+          </view>
+        </view>
+        <view class="weui-article__h2">（二）抗过敏</view>
+        <view class="weui-article__section">
+          <view class="weui-article__h3">1、地塞米松</view>
+          <view class="weui-article__p">
+            （1）抗过敏，抗休克。有免疫抑制的作用，当肌体发生过敏反应的时候，就可以使用强大的地塞米松去抑制过敏反应，使人体恢复正常，使免疫功能恢复正常。
+          </view>
+          <view class="weui-article__p">
+            （2）使用方法：化疗用药前静脉注射
+          </view>
+        </view>
+        <view class="weui-article__section">
+          <view class="weui-article__h3">2、苯海拉明</view>
+          <view class="weui-article__p">
+            （1）抗组胺药，具有抗组织胺H1受体的作用，对中枢神经有较强的抑制作用。
+          </view>
+          <view class="weui-article__p">
+            （2）使用方法：化疗用药前肌肉注射
+          </view>
+        </view>
+      </view>
+      <view class="weui-article__h1">五、化疗期间注意事项</view>
+      <view class="weui-article__section">
+        <view class="weui-article__section">
+          <view class="weui-article__p">
+            1、留置PICC或输液港，保证化疗药输注安全，防止药物外渗损伤血管。留置导管后做到按时维护管路。
+          </view>
+          <view class="weui-article__p">
+            2、合理安排饮食：化疗期间可能会出现口腔溃疡、食欲减退、恶心呕吐或腹泻等胃肠道反应。在饮食上应多吃些清淡、富有营养且易于消化的食物。可经常吃些瘦肉、鱼类、大枣、花生等食品。这对于防止或减轻由于骨髓抑制引起的血细胞数量下降十分有益。若出现贫血症状时，可多吃些动物的肝脏或心脏、蛋黄、瘦肉以及菠菜、杨梅、橘子、柚子和无花果等。要多吃些香菇、蘑菇、猴头菇、木耳等富含多糖类的食用菌，以提高人体的免疫功能，抑制癌细胞的生长和繁殖。在使用顺铂等主要经肾脏排泄的化疗药物时，要多饮水，以减轻药物对肾脏的损害。</view>
+          <view class="weui-article__p">
+            3、保持情绪稳定：临床实践表明，凡是在化疗时心存疑虑、惊恐不安的患者在化疗中出现的不良反应常常较重;而心境坦然、豁达大度的患者则反应较轻。因此应抱着必胜的信心，要心情愉悦地去接受化疗，以减轻不良反应，取得最好的疗效。
+          </view>
+          <view class="weui-article__p">
+            4、预防感染：由于化疗药物可不同程度地抑制人体的骨髓和免疫功能，使机体的抗病能力下降，因而容易使患者发生多种感染性疾病。因此，在化疗期间应做到生活有规律、劳逸结合，并保证充足的睡眠。除了病重卧床外，患者要进行适当的锻炼，以增强机体的抗病能力，尽量避免出现感染性疾病。
+          </view>
+          <view class="weui-article__p">
+            5、要注意保护皮肤：患者在化疗时若出现皮肤损害应加强对皮肤的保养，禁用有刺激性的洗涤用品。若出现皮炎或色素沉着时，不要搔抓或乱涂药膏。如出现脱发时，则应加强对头皮的保护，防止暴晒。虽然脱发影响美观，但只是短期的，化疗结束后，又会重现一头美丽的秀发，而且可能直发变卷发哦！
+          </view>
+          <view class="weui-article__p">
+            6、要避免怀孕：女性肿瘤患者在接受化疗期间应避免怀孕，因为有相当一部分化疗药物具有致突变、致畸变的作用。
+          </view>
+        </view>
+      </view>
+      <view class="weui-article__h1">六、常见的化疗不良反应及居家护理</view>
+      <view class="weui-article__section">
+        <view class="weui-article__h2">（一）造血功能障得（骨髓抑制）</view>
+        <view class="weui-article__section">
+          <view class="weui-article__h3">1、表现</view>
+          <view class="weui-article__p">
+            化疗过程中最常见和最严重的一种不良反应，主要表现为外周血液中的白细胞及血小板计数的下降。白细胞和血小板的减少一般均能自然恢复。
+          </view>
+          <view class="weui-article__h3">2、护理</view>
+          <view class="weui-article__p">
+            （1）白细胞减少的护理
+          </view>
+          <view class="weui-article__p">
+            ①保持环境的清洁，每日要定时通风，减少亲友探访。
+          </view>
+          <view class="weui-article__p">
+            ②病情观察：遵医嘱按时监测血常规，如白细胞计数下降，遵医嘱用升白细胞药物，同时每日应监测体温，若体温超过38.5℃ 时，给予物理降温及时就诊。同时应注意易发生感染部位有无炎症反应，如有无咽痛、咳嗽、口腔溃疡、尿急、尿痛等症状。
+          </view>
+          <view class="weui-article__p">
+            ③营养支持：增加蛋白质、维生素类食物的摄入，以增强机体的抵抗能力。但应注意卫生，生吃水果、蔬菜要洗干净。
+          </view>
+          <view class="weui-article__p">
+            ④卫生保持：保持口腔的清洁，除每日早晚刷牙外，其他时间可以使用盐水漱口。每日要清洁外阴，勤洗澡及更换内衣裤，但应注意保暖，避免感冒。
+          </view>
+          <view class="weui-article__p">
+            ⑤紧急就医：若出现以下情况腹泻、发热、白细胞数小于1.0*10^9 /L或经注射瑞白后骨髓抑制无好转，请前往医院急诊或门诊就诊。
+          </view>
+          <view class="weui-article__p">
+            （2）血小板降低的护理
+          </view>
+          <view class="weui-article__p">
+            ①病情观察：遵医嘱按时监测血常规，血小板计数下降，遵医嘱用升血小板药物。在血小板计数下降期，要密切注意面色及生命体征的变化，及早发现因血小板计数下降引起的出血，特别是隐性出血。显性出血易被发现，表现为牙龈出血、鼻出血、阴道流血、尿血、便血。隐性出血不易被发现，表现为皮下出血、内脏出血、颅内出血。
+          </view>
+          <view class="weui-article__p">
+            ②限制活动：根据自身情况，适当限制活动，防止活动时因体弱无力、贫血而发生外伤及出血意外，有颅内出血或其他内脏出血倾向的病人，应绝对卧床休息。
+          </view>
+          <view class="weui-article__p">③生活中用软毛刷刷牙，不要使用牙签剔牙，防止牙龈出血，严重者有必要禁止刷牙，用盐水漱口或给予口腔护理。
+          </view>
+          <view class="weui-article__p">④生活习惯：改掉不良习惯，如抠鼻等，以预防出血。
+          </view>
+          <view class="weui-article__p"> ⑤饮食指导：给予升血治疗的同时，应改善病人的饮食，以达到食疗配合药疗的效果。忌食辛辣，坚硬粗糙的食物，防止因过强的刺激造成消化道出血；多喝水、吃新鲜水果及蔬菜，避免出现便秘，防止因用力排便引起肠黏膜损伤和潜在性的颅压升高发生脑出血。
+          </view>
+          <view class="weui-article__p">⑥紧急就医：若血小板小于50*10^9/L,需及时来院就诊。</view>
+        </view>
+      </view>
+      <view class="weui-article__section">
+        <view class="weui-article__h2">（二）消化道反应</view>
+        <view class="weui-article__section">
+          <view class="weui-article__h3">1、表现</view>
+          <view class="weui-article__p">
+            主要表现为食欲减退、恶心呕吐；口腔及消化道溃疡；腹痛、腹泻。
+          </view>
+          <view class="weui-article__h3">2、护理</view>
+          <view class="weui-article__p">
+            （1）食欲减退、恶心、呕吐
+          </view>
+          <view class="weui-article__p">
+            ①放松心情
+          </view>
+          <view class="weui-article__p">
+            ②饮食指导：多进食清淡、易消化的食物，可少食多餐，食用自己平常喜爱的食物。
+          </view>
+          <view class="weui-article__p">
+            ③家属及时清理呕吐物，且协助病人漱口。
+          </view>
+          <view class="weui-article__p">
+            ④紧急就医：如呕吐持续不缓解，不能进食，一般状况差，及时就诊。
+          </view>
+          <view class="weui-article__p">
+            （2）口腔溃疡的护理
+          </view>
+          <view class="weui-article__p">
+            ①保持口腔清洁，用盐水漱口。
+          </view>
+          <view class="weui-article__p">
+            ②饮食应以较清淡、质软、无刺激性食物为主，急性期的病人应以流食少渣为主。
+          </view>
+          <view class="weui-article__p">
+            （3）腹痛、腹泄的护理
+          </view>
+          <view class="weui-article__p">①详细记录每天的大便次数，并观察其性质及颜色。
+          </view>
+          <view class="weui-article__p">②便后清洗肛周皮肤，防止皮肤破损。
+          </view>
+          <view class="weui-article__p">③饮食指导：不吃不洁、生冷、油腻的食物，养成良好的饮食卫生习惯。急性期宜禁食，通过输液补充肠道内损失的电解质，恢复期可进流食。
+          </view>
+          <view class="weui-article__p">④紧急就医：腹泻严重，一般状况差，及时就诊。</view>
+        </view>
+      </view>
+      <view class="weui-article__section">
+        <view class="weui-article__h2">（三）皮肤、黏膜的损伤</view>
+        <view class="weui-article__section">
+          <view class="weui-article__h3">1、表现</view>
+          <view class="weui-article__p">
+            （1）皮肤反应：表现为皮肤干燥、色素沉着、皮疹、全身瘙痒，严重者可出现剥脱性皮炎。
+          </view>
+          <view class="weui-article__p">
+            （2）毛发脱落：因毛囊上皮生长迅速，对化疗药物敏感。
+          </view>
+          <view class="weui-article__p">
+            （3）组织环死：某些化疗药物对局部组织及血管刺激性较大，形成硬结，经久不愈。
+          </view>
+          <view class="weui-article__h3">2、护理</view>
+          <view class="weui-article__p">
+            （1）使用润肤止痒乳涂抹干燥皮肤。
+          </view>
+          <view class="weui-article__p">
+            （2）留置PICC或输液港，保证化疗药输注安全，防止药物外渗损伤血管
+          </view>
+        </view>
+      </view>
+      <view class="weui-article__section">
+        <view class="weui-article__h2">（四）肝、肾功能的损伤</view>
+        <view class="weui-article__section">
+          <view class="weui-article__h3">1、表现</view>
+          <view class="weui-article__p">
+            （1）主要表现为转氨酶增高而出现肝功损害的早期症状，严重者可出现黄疸。
+          </view>
+          <view class="weui-article__p">
+            （2）多数化疗药物均由肾脏排泄，大剂量应用时其代谢产物溶解性差，尤其在酸性环境中易形成沉淀物，堵塞肾小管，导致肾衰竭，如顺铂、甲氨蝶呤等。环磷酰胺以原形排泄，可引起出血性膀胱炎。
+          </view>
+          <view class="weui-article__h3">2、护理</view>
+          <view class="weui-article__p">
+            （1）化疗过程中多饮水，多吃一些利尿食物，如西瓜、冬瓜、黄瓜等。以保证肾脏的持续灌注，保证尿量。
+          </view>
+          <view class="weui-article__p">
+            （2）如出现排尿困难及时就诊。
+          </view>
+        </view>
+      </view>
+      <view class="weui-article__section">
+        <view class="weui-article__h2">（五）周围神经毒性</view>
+        <view class="weui-article__section">
+          <view class="weui-article__h3">1、表现</view>
+          <view class="weui-article__p">
+            某些药物如白蛋白紫杉醇的应用可出现指、趾端麻木，有针刺样感。
+          </view>
+          <view class="weui-article__h3">2、护理</view>
+          <view class="weui-article__p">
+            （1）化疗用药时会有冷敷疗法
+          </view>
+          <view class="weui-article__p">
+            （2）化疗周期结束后会有好转
+          </view>
+        </view>
+      </view>
+      <view class="weui-article__section">
+        <view class="weui-article__h2">（六）脱发的护理</view>
+        <view class="weui-article__section">
+          <view class="weui-article__p">
+            1、部分化疗药可引起脱发，需正确面对自身形象的改变。可选择假发、围巾、帽子等装饰物，让自己变得美美哒。
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

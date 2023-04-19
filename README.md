@@ -1,2 +1,2 @@
-# graduate_zhangkl
-The graduate of zhangkl
+# 智康妇
+这是一个研究生毕业设计课题，用于实验医疗方法论
