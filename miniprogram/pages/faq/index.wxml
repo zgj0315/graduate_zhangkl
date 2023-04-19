@@ -11,7 +11,7 @@
           </view><button class="mini-btn" type="default" size="mini" bindtap="searchFAQ">搜索</button>
         </view>
       </view>
-      <view class="weui-cells__title">问题列表</view>
+      <view class="weui-cells__title" wx:if="{{faqList.length}}">问题列表</view>
       <view class="weui-cells weui-cells_after-title" wx:if="{{faqList.length}}">
         <view wx:for="{{faqList}}" wx:key="_id" class="weui-cell weui-cell_access" hover-class="weui-cell_active" data-id="{{item._id}}" bindtap="toDetail">
           <view class="weui-cell__hd" data-id="{{item._id}}" data-index="{{index}}" catchtap="toggleComplete" style="margin-right: 5px">
