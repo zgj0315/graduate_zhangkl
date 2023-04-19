@@ -5,7 +5,7 @@ Page({
    * Page initial data
    */
   data: {
-
+    searchKeyword: '123'
   },
 
   /**
@@ -70,5 +70,19 @@ Page({
    */
   onShareAppMessage() {
 
+  },
+
+  searchFAQ() {
+    console.log('searchFAQ')
+    console.log(this.data.searchKeyword)
+    const db = wx.cloud.database()
+    db.collection('zkf_faq').where({
+      keywords: this.data.searchKeyword
+    }).get({
+      success: function(res) {
+        // res.data 包含该记录的数据
+        console.log(res.data)
+      }
+    })
   }
 })
