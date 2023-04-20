@@ -1,1 +1,2 @@
 /* pages/article005/index.wxss */
+@import '../common.wxss';

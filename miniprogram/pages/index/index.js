@@ -23,11 +23,14 @@ Page({
       tip: '有问题，早发现，早治疗',
       showItem: false,
       item: [{
-        title: '三大肿瘤症状',
+        title: '卵巢癌',
         page: 'article004'
       }, {
-        title: '三大肿瘤筛查',
+        title: '宫颈癌',
         page: 'article005'
+      }, {
+        title: '子宫内膜癌',
+        page: 'article014'
       }]
     }, {
       title: '术后护理行为建议',

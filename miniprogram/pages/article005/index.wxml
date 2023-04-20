@@ -1,3 +1,73 @@
-<!--pages/article005/index.wxml-->
-<text>pages/article005/index.wxml</text>
-<text>Coming Soon</text>
+<view class="page" data-weui-theme="{{theme}}">
+  <view class="page__bd">
+    <view class="weui-article">
+      <view class="weui-article__h1">宫颈癌</view>
+      <view class="weui-article__section">
+        <view class="weui-article__h2">概念</view>
+        <view class="weui-article__section">
+          <view class="weui-article__p">
+            宫颈癌是原发于子宫颈部位的恶性肿瘤。
+          </view>
+        </view>
+      </view>
+      <view class="weui-article__section">
+        <view class="weui-article__h2">危险因素</view>
+        <view class="weui-article__section">
+          <view class="weui-article__p">
+            高危型人乳头状瘤病毒（hpv）是该病发生的最主要的危险因素。
+          </view>
+        </view>
+      </view>
+      <view class="weui-article__section">
+        <view class="weui-article__h2">筛查与预防</view>
+        <view class="weui-article__section">
+          <view class="weui-article__p">高危型HPV检测和宫颈细胞学检查TCT联合检查
+            21-29岁的女性需要每三年做一次宫颈癌筛查，
+            30-65岁的女性需要每两年做一次宫颈癌筛查。
+            如果65岁以上的女性连续三次宫颈癌筛查结果均正常，则可以停止宫颈癌筛查。
+            如果女性有宫颈癌前病变、宫颈癌病史，需要每年进行一次宫颈癌筛查。
+            通过注射宫颈癌疫苗预防宫颈癌
+          </view>
+        </view>
+      </view>
+      <view class="weui-article__section">
+        <view class="weui-article__h2">症状</view>
+        <view class="weui-article__section">
+          <view class="weui-article__p">早期可能没有任何症状，随疾病进展会出现：1接触性出血或血性白带。2阴道异常排液，可以是白色的，血性的，稀薄如水样的，伴感染，阴道排液是腥臭，恶臭。晚期肿瘤细胞坏死，可能是大量米汤样或脓恶臭的分泌物。
+            晚期肿瘤压迫直肠，侵犯膀胱，盆腔神经，会尿频尿急，肛门坠胀，下肢和大腿肿痛。
+          </view>
+        </view>
+      </view>
+      <view class="weui-article__section">
+        <view class="weui-article__h2">治疗</view>
+        <view class="weui-article__section">
+          <view class="weui-article__p">宫颈癌早期适合手术治疗。传统的根治性子宫切除或者根治性放疗治疗早期宫颈癌取得了良好的生存率，但同时也造成年轻宫颈癌患者永久性丧失生育力。复旦大学附属肿瘤医院在国内率先开展ART 研究，仅切除宫颈、宫颈旁组织以及区域性淋巴结，然后子宫下段与阴道上端吻合，目的是保留患者的生育功能。又因为宫颈癌大多是鳞癌，对放射线极为敏感，所以中晚期通常以放疗化疗结合的方法。
+          </view>
+        </view>
+      </view>
+      <view class="weui-article__section">
+        <view class="weui-article__h2">放疗</view>
+        <view class="weui-article__section">
+          <view class="weui-article__p">（使用高能射线杀死或抑制癌细胞生长，需联合内外照射相联合）
+            1.外照射通过使用外照射的仪器，放射医生在勾画放射部位，通过肿瘤本身和转移部位进照射，通过多次照射，在一定时间内。
+            2.内照射也称后装腔内放疗，通过特制的管道，将放射源放在肿瘤体附近和肿瘤体内。
+          </view>
+        </view>
+      </view>
+      <view class="weui-article__section">
+        <view class="weui-article__h2">化疗</view>
+        <view class="weui-article__section">
+          <view class="weui-article__p">通过化学药物杀死癌细胞。通常和放疗相结合。
+          </view>
+        </view>
+      </view>
+      <view class="weui-article__section">
+        <view class="weui-article__h2">靶向治疗和免疫治疗</view>
+        <view class="weui-article__section">
+          <view class="weui-article__p">靶向治疗通过单克隆抗体作用于肿瘤细胞的一个位点，破坏癌细胞的一个蛋白分子或基因。免疫治疗指通过增强自身免疫力，来治疗疾病。
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
