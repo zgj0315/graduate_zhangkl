@@ -5,41 +5,41 @@ Page({
    * Page initial data
    */
   data: {
-
+    openid: '',
+    question: '',
+    consultList: [],
+    isShowQuestionForm: false
   },
 
   /**
    * Lifecycle function--Called when page load
    */
   onLoad(options) {
-
+    let self = this
+    wx.cloud.callFunction({
+      // 云函数名称
+      name: 'getId',
+      success: function(res) {
+        self.setData({
+          openid: res.result.openid
+        })
+      },
+      fail: console.error
+    })
   },
 
   /**
    * Lifecycle function--Called when page is initially rendered
    */
   onReady() {
-
+    this.searchConsult()
   },
 
   /**
    * Lifecycle function--Called when page show
    */
   onShow() {
-    console.log('onShow')
-    wx.cloud.callFunction({
-      // 云函数名称
-      name: 'add',
-      // 传给云函数的参数
-      data: {
-        a: 1,
-        b: 2,
-      },
-      success: function(res) {
-        console.log(res.result.sum) // 3
-      },
-      fail: console.error
-    })
+
   },
 
   /**
@@ -75,5 +75,61 @@ Page({
    */
   onShareAppMessage() {
 
+  },
+
+  inputQuestion() {
+    // do nothing
+  },
+
+  submitQuestion() {
+    console.log('submitQuestion')
+    console.log('question: ', this.data.question)
+    const db = wx.cloud.database()
+    db.collection('zkf_consult').add({
+      data: {
+        question: this.data.question
+      },
+      success: function(res) {
+        console.log(res)
+      }
+    })
+    this.setData({
+      isShowQuestionForm: false
+    })
+    this.searchConsult()
+  },
+
+  searchConsult() {
+    let self = this
+    const db = wx.cloud.database()
+    db.collection('zkf_consult').where({
+      _openid: this.data.openid
+    }).get({
+      success: function(res) {
+        self.setData({
+          consultList: res.data
+        })
+        // console.log('[数据库] [查询记录] 成功: ', res)
+      },
+      fail: err => {
+        console.error('[数据库] [查询记录] 失败：', err)
+      },
+      complete: () => {
+        // console.log('[数据库] [查询记录] 完成')
+      }
+    })
+  },
+
+  toSonsult() {
+    this.setData({
+      isShowQuestionForm: true
+    })
+  },
+
+  toDetail(e) {
+    const {id: consultId} = e.currentTarget.dataset
+    wx.navigateTo({
+      url: `/pages/consult-detail/index?consultId=${consultId}`,
+    })
   }
 })
