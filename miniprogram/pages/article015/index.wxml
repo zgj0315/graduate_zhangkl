@@ -1,2 +1,20 @@
-<!--pages/article015/index.wxml-->
-<text>pages/article015/index.wxml</text>
+<view class="page" data-weui-theme="{{theme}}">
+  <view class="container page" data-weui-theme="{{theme}}">
+    <view class="page__bd">
+      <view class="page-section">
+        <view class="page-section-title">勾选存在的症状</view>
+        <view class="weui-cells weui-cells_after-title">
+          <checkbox-group bindchange="checkboxChange">
+            <label class="weui-cell weui-check__label" wx:for="{{items}}" wx:key="{{item.value}}">
+              <view class="weui-cell__hd">
+                <checkbox value="{{item.value}}" checked="{{item.checked}}" />
+              </view>
+              <view class="weui-cell__bd">{{item.name}}</view>
+            </label>
+          </checkbox-group>
+        </view>
+        <view class="weui-cells weui-cells_after-title">{{message}}</view>
+      </view>
+    </view>
+  </view>
+</view>
