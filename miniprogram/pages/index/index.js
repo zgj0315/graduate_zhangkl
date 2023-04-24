@@ -13,11 +13,11 @@ Page({
         title: '医生出诊信息',
         page: 'article002'
       },
-       {
+      {
         title: '护士护理专长',
         page: 'article003'
       },
-    ]
+      ]
     }, {
       title: '健康科普',
       tip: '有问题，早发现，早治疗',
@@ -59,11 +59,17 @@ Page({
       tip: '并发症不可怕',
       showItem: false,
       item: [{
-        title: '并发症症状自评',
+        title: '术后体温',
         page: 'article009'
       }, {
-        title: '并发症风险预警',
+        title: '肠梗阻症状',
         page: 'article010'
+      }, {
+        title: '伤口炎症',
+        page: 'article015'
+      }, {
+        title: '白细胞',
+        page: 'article016'
       }]
     }, {
       title: '心理健康',
@@ -104,7 +110,7 @@ Page({
       success: (res) => {
         this.onChangeSelectedEnv(res.tapIndex);
       },
-      fail (res) {
+      fail(res) {
         console.log(res.errMsg);
       }
     });
