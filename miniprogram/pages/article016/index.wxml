@@ -1,11 +1,11 @@
 <view class="container page" data-weui-theme="{{theme}}">
   <view class="page-body">
     <view class="page-section">
-      <view class="weui-cells__title">术后体温</view>
+      <view class="weui-cells__title">白细胞</view>
       <view wx:if="{{inputed}}">{{message}}</view>
       <view class="weui-cells weui-cells_after-title" wx:if="{{!inputed}}">
         <view class="weui-cell weui-cell_input">
-          <input class="weui-input" type="digit" placeholder="输入体温" model:value="{{temperature}}" bindinput="inputTemperature"/>
+          <input class="weui-input" type="digit" placeholder="输入" model:value="{{input}}" bindinput="input"/>*10^9/L
         </view>
       </view>
     </view>

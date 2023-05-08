@@ -1,3 +1,28 @@
-<!--pages/consult/index.wxml-->
-<text>pages/consult/index.wxml</text>
-<text>Coming Soon</text>
+<view class="page" data-weui-theme="{{theme}}">
+  <mp-toptips msg="{{error}}" type="error" show="{{error}}"></mp-toptips>
+  <mp-form-page title="表单结构" subtitle="展示表单页面的信息结构样式, 分别由头部区域/控件区域/提示区域/操作区域和底部信息区域组成。" wx:if="{{isShowQuestionForm}}">
+    <mp-form id="form">
+      <mp-cells title="文本域">
+        <mp-cell has-header="{{false}}" has-footer="{{false}}" title="" ext-class="">
+          <textarea class="weui-textarea" placeholder="请输入咨询内容" style="height: 12em" model:value="{{question}}" bindinput="inputQuestion" />
+          <view class="weui-textarea-counter">0/200</view>
+        </mp-cell>
+      </mp-cells>
+    </mp-form>
+    <view slot="button">
+      <button class="weui-btn" type="primary" bindtap="submitQuestion">提交</button>
+    </view>
+  </mp-form-page>
+  <view class="weui-cells__title" wx:if="{{consultList.length && !isShowQuestionForm}}">咨询列表</view>
+  <view class="weui-cells weui-cells_after-title" wx:if="{{consultList.length && !isShowQuestionForm}}">
+    <view wx:for="{{consultList}}" wx:key="_id" class="weui-cell weui-cell_access" hover-class="weui-cell_active" data-id="{{item._id}}" bindtap="toDetail">
+      <view class="weui-cell__hd" data-id="{{item._id}}" data-index="{{index}}" catchtap="toggleComplete" style="margin-right: 5px">
+      </view>
+      <view class="weui-cell__bd">{{item.question}}</view>
+      <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+    </view>
+  </view>
+  <view slot="button" wx:if="{{!isShowQuestionForm}}">
+      <button class="weui-btn" type="primary" bindtap="toSonsult">进行咨询</button>
+    </view>
+</view>

@@ -2,7 +2,9 @@
   "pages": [
     "pages/index/index",
     "pages/faq/index",
+    "pages/faq-detail/index",
     "pages/consult/index",
+    "pages/consult-detail/index",
     "pages/personal/index",
     "pages/article/index",
     "pages/article001/index",
@@ -18,6 +20,9 @@
     "pages/article011/index",
     "pages/article012/index",
     "pages/article013/index",
+    "pages/article014/index",
+    "pages/article015/index",
+    "pages/article016/index",
     "pages/logs/index"
   ],
   "window": {

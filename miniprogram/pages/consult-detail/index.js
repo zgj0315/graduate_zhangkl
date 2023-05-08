@@ -1,20 +1,21 @@
-// pages/article009/index.js
 Page({
 
   /**
    * Page initial data
    */
   data: {
-    temperature: '',
-    message: '',
-    inputed: false
+    consultId: '',
+    question: '',
+    answer: ''
   },
 
   /**
    * Lifecycle function--Called when page load
    */
   onLoad(options) {
-
+    this.setData({
+      consultId: options.consultId
+    })
   },
 
   /**
@@ -28,7 +29,23 @@ Page({
    * Lifecycle function--Called when page show
    */
   onShow() {
-
+    let self = this
+    const db = wx.cloud.database()
+    db.collection('zkf_consult').doc(self.data.consultId).get({
+      success: function(res) {
+        // res.data 包含该记录的数据
+        self.setData({
+          question: res.data.question,
+          answer: res.data.answer
+        })
+      },
+      fail: err => {
+        console.error('[数据库] [查询记录] 失败：', err)
+      },
+      complete: () => {
+        // console.log('[数据库] [查询记录] 完成')
+      }
+    })
   },
 
   /**
@@ -64,28 +81,5 @@ Page({
    */
   onShareAppMessage() {
 
-  },
-
-  submit() {
-    if (this.data.temperature < 37.2) {
-      this.setData({
-        message: '体温正常，继续监测体温。',
-        inputed: true
-      })
-    } else if (this.data.temperature > 38.5) {
-      this.setData({
-        message: '体温持续升高，及时就医。',
-        inputed: true
-      })
-    } else {
-      this.setData({
-        message: '多饮水，采取物理降温，30分钟后再次监测体温。',
-        inputed: true
-      })
-    }
-  },
-
-  inputTemperature() {    
   }
-
 })

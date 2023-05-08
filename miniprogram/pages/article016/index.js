@@ -1,11 +1,11 @@
-// pages/article009/index.js
+// pages/article016/index.js
 Page({
 
   /**
    * Page initial data
    */
   data: {
-    temperature: '',
+    input: '',
     message: '',
     inputed: false
   },
@@ -67,25 +67,24 @@ Page({
   },
 
   submit() {
-    if (this.data.temperature < 37.2) {
+    if (this.data.temperature < 1.0) {
       this.setData({
-        message: '体温正常，继续监测体温。',
+        message: '注射瑞白后骨髓抑制无好转，请及时就医。',
         inputed: true
       })
-    } else if (this.data.temperature > 38.5) {
+    } else if (this.data.temperature > 3.0) {
       this.setData({
-        message: '体温持续升高，及时就医。',
+        message: '继续观察',
         inputed: true
       })
     } else {
       this.setData({
-        message: '多饮水，采取物理降温，30分钟后再次监测体温。',
+        message: '瑞白150ug（每日一支）皮下注射，连续注射2-3天后复查血常规。注射后：＞5.0*109/L—建议：可停止瑞白注射。＜5.0*109/L—建议：继续注射白细胞至5.0*109/L。',
         inputed: true
       })
     }
   },
 
-  inputTemperature() {    
+  input() {    
   }
-
 })

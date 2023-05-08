@@ -1,4 +1,4 @@
-// pages/article010/index.js
+// pages/article015/index.js
 Page({
 
   /**
@@ -7,12 +7,12 @@ Page({
   data: {
     theme: 'light',
     items: [
-      { value: '001', name: '轻微恶心' },
-      { value: '002', name: '呕吐' },
-      { value: '003', name: '腹胀' },
-      { value: '004', name: '腹痛' },
-      { value: '005', name: '恶心' },
-      { value: '006', name: '排气排便停止' }
+      { value: '001', name: '轻微红肿' },
+      { value: '002', name: '硬结' },
+      { value: '003', name: '血肿' },
+      { value: '004', name: '未化脓' },
+      { value: '005', name: '裂开化脓' },
+      { value: '006', name: '脂肪液化' }
     ],
     message: ''
   },
@@ -86,13 +86,13 @@ Page({
       for (let j = 0, lenJ = values.length; j < lenJ; ++j) {
         if (items[i].value === values[j]) {
           items[i].checked = true
-          if ('001' === values[j] || '002' === values[j] || '003' === values[j]) {
+          if ('001' === values[j] || '002' === values[j] || '003' === values[j] || '004' === values[j]) {
             this.setData({
-              message: '根据身体情况多活动，遵医嘱服用助排气排便药物。'
+              message: '遵医嘱服用抗生素，保持伤口清洁干燥，按时换药，如未好转及时就医。'
             })
-          } else if ('004' === values[j] || '005' === values[j] || '006' === values[j]) {
+          } else if ('005' === values[j] || '006' === values[j]) {
             this.setData({
-              message: '先禁食禁水，及时就医。'
+              message: '及时就医。'
             })
           }
           break

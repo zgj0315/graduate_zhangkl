@@ -1,13 +1,11 @@
-// pages/article009/index.js
+// pages/article014/index.js
 Page({
 
   /**
    * Page initial data
    */
   data: {
-    temperature: '',
-    message: '',
-    inputed: false
+
   },
 
   /**
@@ -64,28 +62,5 @@ Page({
    */
   onShareAppMessage() {
 
-  },
-
-  submit() {
-    if (this.data.temperature < 37.2) {
-      this.setData({
-        message: '体温正常，继续监测体温。',
-        inputed: true
-      })
-    } else if (this.data.temperature > 38.5) {
-      this.setData({
-        message: '体温持续升高，及时就医。',
-        inputed: true
-      })
-    } else {
-      this.setData({
-        message: '多饮水，采取物理降温，30分钟后再次监测体温。',
-        inputed: true
-      })
-    }
-  },
-
-  inputTemperature() {    
   }
-
 })

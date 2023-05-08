@@ -1,1 +1,2 @@
 /* pages/consult/index.wxss */
+@import '../common.wxss';
