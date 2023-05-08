@@ -9,7 +9,8 @@ Page({
    */
   data: {
     searchKeyword: '',
-    faqList: []
+    faqList: [],
+    keywords: []
   },
 
   /**
@@ -30,17 +31,29 @@ Page({
    * Lifecycle function--Called when page show
    */
   onShow() {
-    // console.log('begin show')
-    // const db = wx.cloud.database()
-    // db.collection('zkf_faq').doc('5dfc487a643cae4a00052a8509dd22ab').get({
-    //   success: function(res) {
-    //     // res.data 包含该记录的数据
-    //     console.log(res.data)
-    //   }
-    // })
-    // console.log('openid: ', app.globalData.openid)
-    // console.log('searchKeyword: ', this.data.searchKeyword)
-    // console.log('end show')
+    let self = this
+    const db = wx.cloud.database()
+    db.collection('zkf_faq').get({
+      success: function (res) {
+        var tmpKeyworks = []
+        for (var indexData in res.data) {
+          for (var indexKeywords in res.data[indexData].keywords) {
+            if (tmpKeyworks.indexOf(res.data[indexData].keywords[indexKeywords]) == -1) {
+              tmpKeyworks.push(res.data[indexData].keywords[indexKeywords])
+            }
+          }
+        }
+        self.setData({
+          keywords: tmpKeyworks
+        })
+      },
+      fail: err => {
+        console.error('[数据库] [查询记录] 失败：', err)
+      },
+      complete: () => {
+        // console.log('[数据库] [查询记录] 完成')
+      }
+    })
   },
 
   /**
@@ -84,7 +97,7 @@ Page({
     db.collection('zkf_faq').where({
       keywords: self.data.searchKeyword
     }).get({
-      success: function(res) {
+      success: function (res) {
         self.setData({
           faqList: res.data
         })
@@ -99,9 +112,16 @@ Page({
     })
     // console.log('faqList: ', this.data.faqList)
   },
+  
+  selectKeyword(e) {
+    this.setData({
+      searchKeyword: e.currentTarget.dataset.keyword
+    })
+    this.searchFAQ()
+  },
 
   toDetail(e) {
-    const {id: faqId} = e.currentTarget.dataset
+    const { id: faqId } = e.currentTarget.dataset
     // console.log('faqId: ', faqId)
     wx.navigateTo({
       url: `/pages/faq-detail/index?faqId=${faqId}`,
