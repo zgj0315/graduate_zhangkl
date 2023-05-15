@@ -14,6 +14,9 @@ App({
       });
     }
 
-    this.globalData = {};
+    this.globalData = {
+      theme: 'light', // dark
+      mode: '', // 模式(care：关怀模式)
+    };
   }
 });

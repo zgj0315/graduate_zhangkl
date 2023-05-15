@@ -33,7 +33,7 @@ Page({
         page: 'article014'
       }]
     }, {
-      title: '术后护理行为建议',
+      title: '术后行为建议',
       tip: '该做什么，不该做什么',
       showItem: false,
       item: [{
@@ -47,15 +47,7 @@ Page({
         page: 'article008'
       }]
     }, {
-      title: '化疗管理',
-      tip: '副作用及其并发症',
-      showItem: false,
-      item: [{
-        title: '化疗期间注意事项',
-        page: 'article001'
-      }]
-    }, {
-      title: '并发症自我管理及预警',
+      title: '常见并发症预警',
       tip: '并发症不可怕',
       showItem: false,
       item: [{
@@ -70,6 +62,14 @@ Page({
       }, {
         title: '白细胞',
         page: 'article016'
+      }]
+    }, {
+      title: '化疗管理',
+      tip: '副作用及其并发症',
+      showItem: false,
+      item: [{
+        title: '化疗期间注意事项',
+        page: 'article001'
       }]
     }, {
       title: '心理健康',

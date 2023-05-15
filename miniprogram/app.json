@@ -48,13 +48,13 @@
         "pagePath": "pages/faq/index",
         "iconPath": "@iconPathComponent",
         "selectedIconPath": "@selectedIconPathComponent",
-        "text": "常见问题解答"
+        "text": "常见问题"
       },
       {
         "pagePath": "pages/consult/index",
         "iconPath": "@iconPathAPI",
         "selectedIconPath": "@selectedIconPathAPI",
-        "text": "康复咨询"
+        "text": "线上咨询"
       },
       {
         "pagePath": "pages/personal/index",

@@ -1,4 +1,13 @@
-/**index.wxss**/
+
+.placeholder {
+  margin: 10rpx;
+  padding: 0 20rpx;
+  text-align: center;
+  background-color: var(--weui-BG-1);
+  height: 10.3em;
+  line-height: 2.3em;
+  color: var(--weui-FG-1)
+}
 
 page {
   padding-top: 54rpx;
