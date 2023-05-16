@@ -11,9 +11,9 @@ Page({
   /**
    * Lifecycle function--Called when page load
    */
-  onLoad(options) {
+  // onLoad(options) {
 
-  },
+  // },
 
   /**
    * Lifecycle function--Called when page is initially rendered
@@ -25,9 +25,9 @@ Page({
   /**
    * Lifecycle function--Called when page show
    */
-  onShow() {
+  // onShow() {
 
-  },
+  // },
 
   /**
    * Lifecycle function--Called when page hide
@@ -62,5 +62,25 @@ Page({
    */
   onShareAppMessage() {
 
-  }
+  },
+
+  onLoad(options) {
+    this.showTabBar()
+    console.log('onLoad')
+  },
+
+  onShow() {
+    this.showTabBar()
+    console.log('onShow')
+  },
+
+  showTabBar() {
+    console.log('showTabBar begin')
+    wx.showTabBar()
+    console.log('showTabBar end')
+  },
+
+  hideTabBar() {
+    wx.hideTabBar()
+  },
 })

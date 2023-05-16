@@ -1,0 +1,156 @@
+<page-meta root-font-size="system" />
+<view class="page" data-weui-theme="{{theme}}" data-weui-mode="{{mode}}">
+  <view class="weui-article">
+    <view aria-role="heading" aria-level="4" class="weui-article__h1">医生特长及出诊信息</view>
+    <view class="weui-article__section">
+      <view class="weui-article__h2">1. 吕秋波</view>
+      <view class="weui-article__section">
+        <view class="weui-article__h3">出诊时间</view>
+        <view class="weui-article__p">
+          周二下午
+        </view>
+      </view>
+      <view class="weui-article__section">
+        <view class="weui-article__h3">专长</view>
+        <view class="weui-article__p">
+          妇科肿瘤诊治微创、盆腔脱垂性疾病
+        </view>
+      </view>
+    </view>
+    <view class="weui-article__section">
+      <view class="weui-article__h2">2. 申桂华</view>
+      <view class="weui-article__section">
+        <view class="weui-article__h3">出诊时间</view>
+        <view class="weui-article__p">
+          周一上午，周四上午
+        </view>
+      </view>
+      <view class="weui-article__section">
+        <view class="weui-article__h3">专长</view>
+        <view class="weui-article__p">
+          妇科肿瘤化疗，靶向治疗等
+        </view>
+      </view>
+    </view>
+    <view class="weui-article__section">
+      <view class="weui-article__h2">3. 魏风华</view>
+      <view class="weui-article__section">
+        <view class="weui-article__h3">出诊时间</view>
+        <view class="weui-article__p">
+          周一下午
+        </view>
+      </view>
+      <view class="weui-article__section">
+        <view class="weui-article__h3">专长</view>
+        <view class="weui-article__p">
+          妇科肿瘤
+        </view>
+      </view>
+    </view>
+    <view class="weui-article__section">
+      <view class="weui-article__h2">4. 李叶</view>
+      <view class="weui-article__section">
+        <view class="weui-article__h3">出诊时间</view>
+        <view class="weui-article__p">
+          周五上午
+        </view>
+      </view>
+      <view class="weui-article__section">
+        <view class="weui-article__h3">专长</view>
+        <view class="weui-article__p">
+          妇科恶性肿瘤、盆底疾病、妇科老年病
+        </view>
+      </view>
+    </view>
+    <view class="weui-article__section">
+      <view class="weui-article__h2">5. 孟庆伟</view>
+      <view class="weui-article__section">
+        <view class="weui-article__h3">出诊时间</view>
+        <view class="weui-article__p">
+          周三上午，周五上午
+        </view>
+      </view>
+      <view class="weui-article__section">
+        <view class="weui-article__h3">专长</view>
+        <view class="weui-article__p">
+          子宫肌瘤、子宫内膜异位、不孕
+        </view>
+      </view>
+    </view>
+    <view class="weui-article__section">
+      <view class="weui-article__h2">6. 李寒松</view>
+      <view class="weui-article__section">
+        <view class="weui-article__h3">出诊时间</view>
+        <view class="weui-article__p">
+          周三上下
+        </view>
+      </view>
+      <view class="weui-article__section">
+        <view class="weui-article__h3">专长</view>
+        <view class="weui-article__p">
+          妇科肿瘤
+        </view>
+      </view>
+    </view>
+    <view class="weui-article__section">
+      <view class="weui-article__h2">7. 伍凤莉 </view>
+      <view class="weui-article__section">
+        <view class="weui-article__h3">出诊时间</view>
+        <view class="weui-article__p">
+          周一上午
+        </view>
+      </view>
+      <view class="weui-article__section">
+        <view class="weui-article__h3">专长</view>
+        <view class="weui-article__p">
+          妇科肿瘤、妇科内分泌、妇科微创手术
+        </view>
+      </view>
+    </view>
+    <view class="weui-article__section">
+      <view class="weui-article__h2">8. 崔颖</view>
+      <view class="weui-article__section">
+        <view class="weui-article__h3">出诊时间</view>
+        <view class="weui-article__p">
+          周一上，周四下
+        </view>
+      </view>
+      <view class="weui-article__section">
+        <view class="weui-article__h3">专长</view>
+        <view class="weui-article__p">
+          微创手术、妇科良恶性肿瘤、内膜病变
+        </view>
+      </view>
+    </view>
+    <view class="weui-article__section">
+      <view class="weui-article__h2">9. 周丹</view>
+      <view class="weui-article__section">
+        <view class="weui-article__h3">出诊时间</view>
+        <view class="weui-article__p">
+          周三上下
+        </view>
+      </view>
+      <view class="weui-article__section">
+        <view class="weui-article__h3">专长</view>
+        <view class="weui-article__p">
+          妇科肿瘤、妇科腹腔镜微创手术
+        </view>
+      </view>
+    </view>
+    <view class="weui-article__section">
+      <view class="weui-article__h2">10. 黄帅</view>
+      <view class="weui-article__section">
+        <view class="weui-article__h3">出诊时间</view>
+        <view class="weui-article__p">
+          周二下
+        </view>
+      </view>
+      <view class="weui-article__section">
+        <view class="weui-article__h3">专长</view>
+        <view class="weui-article__p">
+          妇科肿瘤、微创手术、内膜病变
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

@@ -8,8 +8,6 @@
     "pages/personal/index",
     "pages/article/index",
     "pages/article001/index",
-    "pages/article002/index",
-    "pages/article003/index",
     "pages/article004/index",
     "pages/article005/index",
     "pages/article006/index",
@@ -23,6 +21,9 @@
     "pages/article014/index",
     "pages/article015/index",
     "pages/article016/index",
+    "pages/article1/index",
+    "pages/article11/index",
+    "pages/article12/index",
     "pages/logs/index"
   ],
   "window": {

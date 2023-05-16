@@ -88,7 +88,9 @@ Page({
     }],
     envList,
     selectedEnv: envList[0],
-    haveCreateCollection: false
+    haveCreateCollection: false,
+    showIndex: true,
+    showZhuanJiaJianJie: false,
   },
 
   onClickPowerInfo(e) {
@@ -166,5 +168,12 @@ Page({
       });
       wx.hideLoading();
     });
+  },
+
+  showZhuanJiaJianJie() {
+    this.setData({
+      showIndex: false,
+      showZhuanJiaJianJie: true
+    })
   }
 });
