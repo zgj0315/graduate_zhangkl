@@ -1,4 +1,4 @@
-// pages/article014/index.js
+// pages/article2/index.js
 Page({
 
   /**
