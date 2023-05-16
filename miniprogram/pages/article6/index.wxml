@@ -1,0 +1,22 @@
+<page-meta root-font-size="system" />
+<view class="page" data-weui-theme="{{theme}}" data-weui-mode="{{mode}}">
+  <view class="weui-article">
+    <view aria-role="heading" aria-level="4" class="weui-article__h1">好的心态，好的心情</view>
+    <view class="page__bd page__bd_spacing">
+      <view class="weui-flex">
+        <view class="weui-flex__item">
+          <navigator url="/pages/article61/index" class="placeholder">
+            <image src="../../images/037.png" style="width: 150rpx; height: 150rpx;"></image>放松的音乐
+          </navigator>
+        </view>
+      </view>
+      <view class="weui-flex">
+        <view class="weui-flex__item">
+          <navigator url="/pages/article62/index" class="placeholder">
+            <image src="../../images/038.png" style="width: 150rpx; height: 150rpx;"></image>放松的图片
+          </navigator>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
