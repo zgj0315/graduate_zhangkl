@@ -1,6 +1,6 @@
 <page-meta root-font-size="system" />
 <view class="page" data-weui-theme="{{theme}}" data-weui-mode="{{mode}}">
-  <view class="page__bd page__bd_spacing" wx:if="{{showIndex}}">
+  <view class="page__bd page__bd_spacing">
     <view class="weui-flex">
       <view class="weui-flex__item">
         <navigator url="/pages/article1/index" class="placeholder">
@@ -17,10 +17,10 @@
     </view>
     <view class="weui-flex">
       <view class="weui-flex__item">
-        <view class="placeholder">
+        <navigator url="/pages/article3/index" class="placeholder">
           <image src="../../images/003.png" style="width: 95rpx; height: 150rpx;"></image>
           <view>术后行为建议</view>
-        </view>
+        </navigator>
       </view>
       <view class="weui-flex__item">
         <view class="placeholder">
@@ -41,22 +41,6 @@
           <image src="../../images/006.png" style="width: 150rpx; height: 150rpx;"></image>
           <view>心理健康</view>
         </view>
-      </view>
-    </view>
-  </view>
-  <view class="page__bd page__bd_spacing" wx:if="{{showZhuanJiaJianJie}}">
-    <view class="weui-flex">
-      <view class="weui-flex__item">
-        <navigator url="/pages/article11/index" class="placeholder">
-          <image src="../../images/001.png" style="width: 120rpx; height: 150rpx;"></image>专家出诊信息
-        </navigator>
-      </view>
-    </view>
-    <view class="weui-flex">
-      <view class="weui-flex__item">
-        <navigator url="/pages/article12/index" class="placeholder">
-          <image src="../../images/007.png" style="width: 150rpx; height: 150rpx;"></image>护士护理专长
-        </navigator>
       </view>
     </view>
   </view>

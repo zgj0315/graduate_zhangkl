@@ -1,3 +1,4 @@
+// pages/article32/index.js
 Page({
 
   /**
