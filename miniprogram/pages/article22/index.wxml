@@ -4,7 +4,7 @@
     <view aria-role="heading" aria-level="4" class="weui-article__h1">宫颈癌</view>
     <view class="weui-article__section">
       <view class="weui-article__p">
-        <image class="weui-article__img" src="../../images/015.png" mode="aspectFit" style="height: 180px;" />
+        <image class="weui-article__img" src="cloud://cloud1-6gasybaa35d3d897.636c-cloud1-6gasybaa35d3d897-1317408832/image/015.png" mode="aspectFit" style="height: 180px;" />
       </view>
     </view>
     <view class="weui-article__section">
@@ -32,9 +32,9 @@
           30-65岁的女性需要每两年做一次宫颈癌筛查。
           如果65岁以上的女性连续三次宫颈癌筛查结果均正常，则可以停止宫颈癌筛查。
           如果女性有宫颈癌前病变、宫颈癌病史，需要每年进行一次宫颈癌筛查。
-          <image class="weui-article__img" src="../../images/016.jpg" mode="aspectFit" style="height: 180px;" />
+          <image class="weui-article__img" src="cloud://cloud1-6gasybaa35d3d897.636c-cloud1-6gasybaa35d3d897-1317408832/image/016.jpg" mode="aspectFit" style="height: 180px;" />
           通过注射宫颈癌疫苗预防宫颈癌
-          <image class="weui-article__img" src="../../images/017.jpg" mode="aspectFit" style="height: 180px;" />
+          <image class="weui-article__img" src="cloud://cloud1-6gasybaa35d3d897.636c-cloud1-6gasybaa35d3d897-1317408832/image/017.jpg" mode="aspectFit" style="height: 180px;" />
         </view>
       </view>
     </view>
@@ -44,7 +44,7 @@
         <view class="weui-article__p">
           早期可能没有任何症状，随疾病进展会出现：1接触性出血或血性白带。2阴道异常排液，可以是白色的，血性的，稀薄如水样的，伴感染，阴道排液是腥臭，恶臭。晚期肿瘤细胞坏死，可能是大量米汤样或脓恶臭的分泌物。
           晚期肿瘤压迫直肠，侵犯膀胱，盆腔神经，会尿频尿急，肛门坠胀，下肢和大腿肿痛。
-          <image class="weui-article__img" src="../../images/018.jpg" mode="aspectFit" style="height: 180px;" />
+          <image class="weui-article__img" src="cloud://cloud1-6gasybaa35d3d897.636c-cloud1-6gasybaa35d3d897-1317408832/image/018.jpg" mode="aspectFit" style="height: 180px;" />
         </view>
       </view>
     </view>
@@ -79,10 +79,10 @@
       <view class="weui-article__section">
         <view class="weui-article__p">
           靶向治疗通过单克隆抗体作用于肿瘤细胞的一个位点，破坏癌细胞的一个蛋白分子或基因。免疫治疗指通过增强自身免疫力，来治疗疾病。
-          <image class="weui-article__img" src="../../images/019.jpg" mode="aspectFit" style="height: 180px;" />
-          <image class="weui-article__img" src="../../images/020.jpg" mode="aspectFit" style="height: 180px;" />
-          <image class="weui-article__img" src="../../images/021.png" mode="aspectFit" style="height: 180px;" />
-          <image class="weui-article__img" src="../../images/022.jpg" mode="aspectFit" style="height: 180px;" />
+          <image class="weui-article__img" src="cloud://cloud1-6gasybaa35d3d897.636c-cloud1-6gasybaa35d3d897-1317408832/image/019.jpg" mode="aspectFit" style="height: 180px;" />
+          <image class="weui-article__img" src="cloud://cloud1-6gasybaa35d3d897.636c-cloud1-6gasybaa35d3d897-1317408832/image/020.jpg" mode="aspectFit" style="height: 180px;" />
+          <image class="weui-article__img" src="cloud://cloud1-6gasybaa35d3d897.636c-cloud1-6gasybaa35d3d897-1317408832/image/021.png" mode="aspectFit" style="height: 180px;" />
+          <image class="weui-article__img" src="cloud://cloud1-6gasybaa35d3d897.636c-cloud1-6gasybaa35d3d897-1317408832/image/022.jpg" mode="aspectFit" style="height: 180px;" />
         </view>
       </view>
     </view>

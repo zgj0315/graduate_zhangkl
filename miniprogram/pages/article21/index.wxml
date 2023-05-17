@@ -4,7 +4,7 @@
     <view aria-role="heading" aria-level="4" class="weui-article__h1">卵巢癌</view>
     <view class="weui-article__section">
       <view class="weui-article__p">
-        <image class="weui-article__img" src="../../images/008.jpg" mode="aspectFit" style="height: 180px;" />
+        <image class="weui-article__img" src="cloud://cloud1-6gasybaa35d3d897.636c-cloud1-6gasybaa35d3d897-1317408832/image/008.jpg" mode="aspectFit" style="height: 180px;" />
       </view>
     </view>
     <view class="weui-article__section">
@@ -39,10 +39,10 @@
           病理学检查指术中切除病灶或取可疑的组织做病理化验，是确诊卵巢癌的金标准。
           早期会进行腹部检查及三合诊配合一些肿瘤标记物检查例如：CA125，甲胚蛋白，乳酸脱氢酶，CA129，CA155，癌胚抗原。
           晚期术后患者可通过细胞学检查来发现有无转移病灶。细胞学检查指化验腹腔积液或腹腔冲洗液有无癌细胞。也有一些患者通过剖腹探查或腹腔镜探查来确诊。
-          <image class="weui-article__img" src="../../images/009.jpg" mode="aspectFit" style="height: 180px;" />
-          <image class="weui-article__img" src="../../images/010.jpg" mode="aspectFit" style="height: 180px;" />
-          <image class="weui-article__img" src="../../images/011.jpg" mode="aspectFit" style="height: 180px;" />
-          <image class="weui-article__img" src="../../images/012.jpg" mode="aspectFit" style="height: 180px;" />
+          <image class="weui-article__img" src="cloud://cloud1-6gasybaa35d3d897.636c-cloud1-6gasybaa35d3d897-1317408832/image/009.jpg" mode="aspectFit" style="height: 180px;" />
+          <image class="weui-article__img" src="cloud://cloud1-6gasybaa35d3d897.636c-cloud1-6gasybaa35d3d897-1317408832/image/010.jpg" mode="aspectFit" style="height: 180px;" />
+          <image class="weui-article__img" src="cloud://cloud1-6gasybaa35d3d897.636c-cloud1-6gasybaa35d3d897-1317408832/image/011.jpg" mode="aspectFit" style="height: 180px;" />
+          <image class="weui-article__img" src="cloud://cloud1-6gasybaa35d3d897.636c-cloud1-6gasybaa35d3d897-1317408832/image/012.jpg" mode="aspectFit" style="height: 180px;" />
         </view>
       </view>
     </view>
@@ -55,8 +55,8 @@
           化疗 术后辅助化疗：杀灭残余病灶，预防复发，分为腹腔化疗和静脉化疗
           复发后化疗：具体情况具体分析，遵医嘱。
           其他：靶向治疗，免疫治疗，中医治疗，放射治疗等其他方式。
-          <image class="weui-article__img" src="../../images/013.jpg" mode="aspectFit" style="height: 180px;" />
-          <image class="weui-article__img" src="../../images/014.jpg" mode="aspectFit" style="height: 180px;" />
+          <image class="weui-article__img" src="cloud://cloud1-6gasybaa35d3d897.636c-cloud1-6gasybaa35d3d897-1317408832/image/013.jpg" mode="aspectFit" style="height: 180px;" />
+          <image class="weui-article__img" src="cloud://cloud1-6gasybaa35d3d897.636c-cloud1-6gasybaa35d3d897-1317408832/image/014.jpg" mode="aspectFit" style="height: 180px;" />
         </view>
       </view>
     </view>

@@ -6,14 +6,14 @@
       <view class="weui-flex">
         <view class="weui-flex__item">
           <navigator url="/pages/article61/index" class="placeholder">
-            <image src="../../images/037.png" style="width: 150rpx; height: 150rpx;"></image>放松的音乐
+            <image src="cloud://cloud1-6gasybaa35d3d897.636c-cloud1-6gasybaa35d3d897-1317408832/image/037.png" style="width: 150rpx; height: 150rpx;"></image>放松的音乐
           </navigator>
         </view>
       </view>
       <view class="weui-flex">
         <view class="weui-flex__item">
           <navigator url="/pages/article62/index" class="placeholder">
-            <image src="../../images/038.png" style="width: 150rpx; height: 150rpx;"></image>放松的图片
+            <image src="cloud://cloud1-6gasybaa35d3d897.636c-cloud1-6gasybaa35d3d897-1317408832/image/038.png" style="width: 150rpx; height: 150rpx;"></image>放松的图片
           </navigator>
         </view>
       </view>

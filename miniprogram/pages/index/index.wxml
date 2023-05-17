@@ -4,13 +4,13 @@
     <view class="weui-flex">
       <view class="weui-flex__item">
         <navigator url="/pages/article1/index" class="placeholder">
-          <image src="../../images/001.png" style="width: 120rpx; height: 150rpx; "></image>
+          <image src="cloud://cloud1-6gasybaa35d3d897.636c-cloud1-6gasybaa35d3d897-1317408832/image/001.png" style="width: 120rpx; height: 150rpx; "></image>
           <view>专家简介</view>
         </navigator>
       </view>
       <view class="weui-flex__item">
         <navigator url="/pages/article2/index" class="placeholder">
-          <image src="../../images/002.png" style="width: 150rpx; height: 150rpx;"></image>
+          <image src="cloud://cloud1-6gasybaa35d3d897.636c-cloud1-6gasybaa35d3d897-1317408832/image/002.png" style="width: 150rpx; height: 150rpx;"></image>
           <view>健康科普</view>
         </navigator>
       </view>
@@ -18,13 +18,13 @@
     <view class="weui-flex">
       <view class="weui-flex__item">
         <navigator url="/pages/article3/index" class="placeholder">
-          <image src="../../images/003.png" style="width: 95rpx; height: 150rpx;"></image>
+          <image src="cloud://cloud1-6gasybaa35d3d897.636c-cloud1-6gasybaa35d3d897-1317408832/image/003.png" style="width: 95rpx; height: 150rpx;"></image>
           <view>术后行为建议</view>
         </navigator>
       </view>
       <view class="weui-flex__item">
         <view class="placeholder">
-          <image src="../../images/004.png" style="width: 150rpx; height: 150rpx;"></image>
+          <image src="cloud://cloud1-6gasybaa35d3d897.636c-cloud1-6gasybaa35d3d897-1317408832/image/004.png" style="width: 150rpx; height: 150rpx;"></image>
           <view>常见并发症预警</view>
         </view>
       </view>
@@ -32,13 +32,13 @@
     <view class="weui-flex">
       <view class="weui-flex__item">
         <view class="placeholder">
-          <image src="../../images/005.png" style="width: 150rpx; height: 150rpx;"></image>
+          <image src="cloud://cloud1-6gasybaa35d3d897.636c-cloud1-6gasybaa35d3d897-1317408832/image/005.png" style="width: 150rpx; height: 150rpx;"></image>
           <view>化疗管理</view>
         </view>
       </view>
       <view class="weui-flex__item">
         <navigator url="/pages/article6/index" class="placeholder">
-          <image src="../../images/006.png" style="width: 150rpx; height: 150rpx;"></image>
+          <image src="cloud://cloud1-6gasybaa35d3d897.636c-cloud1-6gasybaa35d3d897-1317408832/image/006.png" style="width: 150rpx; height: 150rpx;"></image>
           <view>心理健康</view>
         </navigator>
       </view>
