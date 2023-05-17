@@ -12,7 +12,7 @@ Page({
    * Lifecycle function--Called when page load
    */
   onLoad(options) {
-
+    this.audioCtx = wx.createInnerAudioContext()
   },
 
   /**
@@ -62,5 +62,14 @@ Page({
    */
   onShareAppMessage() {
 
-  }
+  },
+
+  audioPlay(e) {
+    this.audioCtx.src = e.currentTarget.dataset.src
+    this.audioCtx.play()
+  },
+  
+  audioPause() {
+    this.audioCtx.pause()
+  },
 })
