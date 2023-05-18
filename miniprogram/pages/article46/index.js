@@ -5,7 +5,9 @@ Page({
    * Page initial data
    */
   data: {
-
+    input: '',
+    message: '',
+    inputed: false
   },
 
   /**
@@ -62,5 +64,27 @@ Page({
    */
   onShareAppMessage() {
 
+  },
+
+  submit() {
+    if (this.data.input < 50.0) {
+      this.setData({
+        message: '及时就医',
+        inputed: true
+      })
+    } else if (this.data.input > 75) {
+      this.setData({
+        message: '继续观察',
+        inputed: true
+      })
+    } else {
+      this.setData({
+        message: '巨和粒1.5mg（1支），皮下注射，2-3天后复查血常规。注射后：＞75*109/L—建议：可停止巨和粒注射。＜75*109/L—建议：继续注射至血小板数＞75*109/L。',
+        inputed: true
+      })
+    }
+  },
+
+  input() {    
   }
 })
