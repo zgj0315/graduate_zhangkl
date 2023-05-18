@@ -5,15 +5,22 @@
     <view class="page__bd page__bd_spacing">
       <view class="weui-flex">
         <view class="weui-flex__item">
-          <navigator url="/pages/article441/index" class="placeholder">
-            药物敷贴 -- 坚持就是胜利
+          <navigator url="/pages/article4421/index" class="placeholder">
+            运动方法
           </navigator>
         </view>
       </view>
       <view class="weui-flex">
         <view class="weui-flex__item">
-          <navigator url="/pages/article442/index" class="placeholder">
-            运动预防 -- 跟做做防水肿
+          <navigator url="/pages/article4422/index" class="placeholder">
+            运动视频
+          </navigator>
+        </view>
+      </view>
+      <view class="weui-flex">
+        <view class="weui-flex__item">
+          <navigator url="/pages/article4423/index" class="placeholder">
+            运动打开
           </navigator>
         </view>
       </view>
