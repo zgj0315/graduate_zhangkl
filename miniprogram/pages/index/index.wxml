@@ -31,10 +31,10 @@
     </view>
     <view class="weui-flex">
       <view class="weui-flex__item">
-        <view class="placeholder">
+        <navigator url="/pages/article51/index" class="placeholder">
           <image src="cloud://cloud1-6gasybaa35d3d897.636c-cloud1-6gasybaa35d3d897-1317408832/image/005.png" style="width: 150rpx; height: 150rpx;"></image>
           <view>化疗管理</view>
-        </view>
+        </navigator>
       </view>
       <view class="weui-flex__item">
         <navigator url="/pages/article6/index" class="placeholder">
