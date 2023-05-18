@@ -20,17 +20,17 @@
       </view>
       <view class="weui-flex">
         <view class="weui-flex__item">
-          <navigator url="/pages/article33/index" class="placeholder">术后下肢淋巴水肿</navigator>
+          <navigator url="/pages/article44/index" class="placeholder">术后下肢淋巴水肿</navigator>
         </view>
       </view>
       <view class="weui-flex">
         <view class="weui-flex__item">
-          <navigator url="/pages/article33/index" class="placeholder">化疗白细胞</navigator>
+          <navigator url="/pages/article45/index" class="placeholder">化疗白细胞</navigator>
         </view>
       </view>
       <view class="weui-flex">
         <view class="weui-flex__item">
-          <navigator url="/pages/article33/index" class="placeholder">化疗血小板</navigator>
+          <navigator url="/pages/article46/index" class="placeholder">化疗血小板</navigator>
         </view>
       </view>
     </view>
