@@ -1,10 +1,9 @@
-<view class="page" data-weui-theme="{{theme}}">
-  <view class="page__bd">
-    <view class="weui-article">
-      <view class="weui-article__h1">{{question}}</view>
-      <view class="weui-article__section">
-        <view class="weui-article__p">{{answer}}</view>
-      </view>
+<page-meta root-font-size="system" />
+<view class="page" data-weui-theme="{{theme}}" data-weui-mode="{{mode}}">
+  <view class="weui-article">
+    <view aria-role="heading" aria-level="4" class="weui-article__h1">{{question}}</view>
+    <view class="weui-article__section">
+      <view class="weui-article__p">{{answer}}</view>
     </view>
   </view>
 </view>

@@ -8,7 +8,7 @@ Page({
    * Page initial data
    */
   data: {
-    searchKeyword: '',
+    inputVal: '',
     faqList: [],
     keywords: []
   },
@@ -95,7 +95,7 @@ Page({
     let self = this
     const db = wx.cloud.database()
     db.collection('zkf_faq').where({
-      keywords: self.data.searchKeyword
+      keywords: self.data.inputVal
     }).get({
       success: function (res) {
         self.setData({
@@ -115,7 +115,7 @@ Page({
   
   selectKeyword(e) {
     this.setData({
-      searchKeyword: e.currentTarget.dataset.keyword
+      inputVal: e.currentTarget.dataset.keyword
     })
     this.searchFAQ()
   },
