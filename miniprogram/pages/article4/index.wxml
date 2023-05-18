@@ -1,0 +1,38 @@
+<page-meta root-font-size="system" />
+<view class="page" data-weui-theme="{{theme}}" data-weui-mode="{{mode}}">
+  <view class="weui-article">
+    <view aria-role="heading" aria-level="4" class="weui-article__h1">常见并发症预警及处理建议</view>
+    <view class="page__bd page__bd_spacing">
+      <view class="weui-flex">
+        <view class="weui-flex__item">
+          <navigator url="/pages/article41/index" class="placeholder">术后发热</navigator>
+        </view>
+      </view>
+      <view class="weui-flex">
+        <view class="weui-flex__item">
+          <navigator url="/pages/article32/index" class="placeholder">术后胃肠梗阻</navigator>
+        </view>
+      </view>
+      <view class="weui-flex">
+        <view class="weui-flex__item">
+          <navigator url="/pages/article33/index" class="placeholder">术后伤口感染</navigator>
+        </view>
+      </view>
+      <view class="weui-flex">
+        <view class="weui-flex__item">
+          <navigator url="/pages/article33/index" class="placeholder">术后下肢淋巴水肿</navigator>
+        </view>
+      </view>
+      <view class="weui-flex">
+        <view class="weui-flex__item">
+          <navigator url="/pages/article33/index" class="placeholder">化疗白细胞</navigator>
+        </view>
+      </view>
+      <view class="weui-flex">
+        <view class="weui-flex__item">
+          <navigator url="/pages/article33/index" class="placeholder">化疗血小板</navigator>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
