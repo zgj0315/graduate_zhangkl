@@ -1,7 +1,7 @@
 <page-meta root-font-size="system" />
 <view class="page" data-weui-theme="{{theme}}" data-weui-mode="{{mode}}">
   <view class="weui-article">
-    <view aria-role="heading" aria-level="4" class="weui-article__h1">术后护理</view>
+    <view aria-role="heading" aria-level="4" class="weui-article__h1">术后护理及居家观察</view>
     <view class="weui-article__section">
       <view class="weui-article__h2">症状观察</view>
       <view class="weui-article__section">
@@ -42,8 +42,9 @@
           1、术后早期下床活动，利于肠蠕动，防止肠粘连，利于术后身体快速康复。
         </view>
         <view class="weui-article__p">
-          2、对于年老体弱的病人，如居家期间仍卧床时间长建议每日做踝泵运动，可增加下肢血液回流，减少下肢血栓形成的发生。
+          2、对于年老体弱的病人，如居家期间仍卧床时间长建议每日做踝泵运动，可增加下肢血液回流，减少下肢血栓形成的发生。（二维码）
         </view>
+        <image class="weui-article__img" src="cloud://cloud1-6gasybaa35d3d897.636c-cloud1-6gasybaa35d3d897-1317408832/image/039.jpg" mode="aspectFit" style="height: 180px;" />
         <view class="weui-article__p">
           3、术后多休息，有足够的睡眠。
         </view>
