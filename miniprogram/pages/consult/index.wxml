@@ -1,18 +1,26 @@
-<view class="page" data-weui-theme="{{theme}}">
-  <mp-toptips msg="{{error}}" type="error" show="{{error}}"></mp-toptips>
-  <mp-form-page title="表单结构" subtitle="展示表单页面的信息结构样式, 分别由头部区域/控件区域/提示区域/操作区域和底部信息区域组成。" wx:if="{{isShowQuestionForm}}">
-    <mp-form id="form">
-      <mp-cells title="文本域">
-        <mp-cell has-header="{{false}}" has-footer="{{false}}" title="" ext-class="">
-          <textarea class="weui-textarea" placeholder="请输入咨询内容" style="height: 12em" model:value="{{question}}" bindinput="inputQuestion" />
-          <view class="weui-textarea-counter">0/200</view>
-        </mp-cell>
-      </mp-cells>
-    </mp-form>
-    <view slot="button">
-      <button class="weui-btn" type="primary" bindtap="submitQuestion">提交</button>
+<page-meta root-font-size="system" />
+<view class="page" data-weui-theme="{{theme}}" data-weui-mode="{{mode}}">
+  <view class="weui-form" wx:if="{{isShowQuestionForm}}">
+    <view class="weui-form__text-area">
+      <h2 class="weui-form__title">线上咨询</h2>
     </view>
-  </mp-form-page>
+    <view class="weui-form__control-area">
+      <view class="weui-cells__group weui-cells__group_form">
+        <view class="weui-cells__title">问题描述</view>
+        <view class="weui-cells weui-cells_form">
+          <view class="weui-cell" hover-class="weui-cell_active">
+            <view class="weui-cell__bd">
+              <textarea class="weui-textarea" placeholder="请描述你的问题" placeholder-class="weui-input__placeholder" rows="3" model:value="{{question}}" bindinput="inputQuestion"></textarea>
+              <view aria-role="option" class="weui-textarea-counter"><span>0</span>/200</view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="weui-form__opr-area">
+      <view class="weui-btn weui-btn_primary" aria-role="button" bindtap="submitQuestion">确定</view>
+    </view>
+  </view>
   <view class="weui-cells__title" wx:if="{{consultList.length && !isShowQuestionForm}}">咨询列表</view>
   <view class="weui-cells weui-cells_after-title" wx:if="{{consultList.length && !isShowQuestionForm}}">
     <view wx:for="{{consultList}}" wx:key="_id" class="weui-cell weui-cell_access" hover-class="weui-cell_active" data-id="{{item._id}}" bindtap="toDetail">
@@ -23,6 +31,6 @@
     </view>
   </view>
   <view slot="button" wx:if="{{!isShowQuestionForm}}">
-      <button class="weui-btn" type="primary" bindtap="toSonsult">进行咨询</button>
-    </view>
+    <button class="weui-btn" type="primary" bindtap="toSonsult">进行咨询</button>
+  </view>
 </view>
