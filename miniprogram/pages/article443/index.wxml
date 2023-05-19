@@ -1,108 +1,21 @@
 <page-meta root-font-size="system" />
 <view class="page" data-weui-theme="{{theme}}" data-weui-mode="{{mode}}">
-  <view class="weui-form">
-    <view class="weui-form__text-area">
-      <h2 class="weui-form__title">腿维记录</h2>
-    </view>
-    <view class="weui-form__control-area">
-      <view class="weui-cells__group weui-cells__group_form">
-        <view class="weui-cells">
-          <view class="weui-cell weui-cell_active">
-            <view class="weui-cell__hd"><label class="weui-label">身体部位</label></view>
-            <view class="weui-cell__hd"><label class="weui-label">左(CM)</label></view>
-            <view class="weui-cell__hd"><label class="weui-label">右(CM)</label></view>
-          </view>
-        </view>
-        <view class="weui-cells__title">术前腿围</view>
-        <view class="weui-cells">
-          <view class="weui-cell weui-cell_active">
-            <view class="weui-cell__hd"><label class="weui-label">脚踝</label></view>
-            <view class="weui-cell__bd">
-              <input wx:if="{{baseline_input_enable || !ankle_left_baseline}}" type="digit" class="weui-input" placeholder="点击输入" placeholder-class="weui-input__placeholder" model:value="{{ankle_left_baseline}}" bindinput="input" />
-              <view wx:else bindtap="baselineInput">{{ankle_left_baseline}}</view>
-            </view>
-            <view class="weui-cell__bd">
-              <input wx:if="{{baseline_input_enable || !ankle_right_baseline}}" type="digit" class="weui-input" placeholder="点击输入" placeholder-class="weui-input__placeholder" model:value="{{ankle_right_baseline}}" bindinput="input" />
-              <view wx:else bindtap="baselineInput">{{ankle_right_baseline}}</view>
-            </view>
-          </view>
-          <view class="weui-cell weui-cell_active">
-            <view class="weui-cell__hd">
-              <label class="weui-label">小腿中部</label>
-            </view>
-            <view class="weui-cell__bd">
-              <input wx:if="{{baseline_input_enable || !shank_left_baseline}}" type="digit" class="weui-input" placeholder="点击输入" placeholder-class="weui-input__placeholder" model:value="{{shank_left_baseline}}" bindinput="input" />
-              <view wx:else bindtap="baselineInput">{{shank_left_baseline}}</view>
-            </view>
-            <view class="weui-cell__bd">
-              <input wx:if="{{baseline_input_enable || !shank_right_baseline}}" type="digit" class="weui-input" placeholder="点击输入" placeholder-class="weui-input__placeholder" model:value="{{shank_right_baseline}}" bindinput="input" />
-              <view wx:else bindtap="baselineInput">{{shank_right_baseline}}</view>
-            </view>
-          </view>
-          <view class="weui-cell weui-cell_active">
-            <view class="weui-cell__hd">
-              <label class="weui-label">大腿中部</label>
-            </view>
-            <view class="weui-cell__bd">
-              <input wx:if="{{baseline_input_enable || !thigh_left_baseline}}" type="digit" class="weui-input" placeholder="点击输入" placeholder-class="weui-input__placeholder" model:value="{{thigh_left_baseline}}" bindinput="input" />
-              <view wx:else bindtap="baselineInput">{{thigh_left_baseline}}</view>
-            </view>
-            <view class="weui-cell__bd">
-              <input wx:if="{{baseline_input_enable || !thigh_right_baseline}}" type="digit" class="weui-input" placeholder="点击输入" placeholder-class="weui-input__placeholder" model:value="{{thigh_right_baseline}}" bindinput="input" />
-              <view wx:else bindtap="baselineInput">{{thigh_right_baseline}}</view>
-            </view>
-          </view>
-        </view>
-        <view class="weui-cells__title">今日腿围</view>
-        <view class="weui-cells">
-          <view class="weui-cell weui-cell_active">
-            <view class="weui-cell__hd"><label class="weui-label">脚踝</label></view>
-            <view class="weui-cell__bd">
-              <input wx:if="{{today_input_enable || !ankle_left_today}}" type="digit" class="weui-input" placeholder="点击输入" placeholder-class="weui-input__placeholder" model:value="{{ankle_left_today}}" bindinput="input" />
-              <view wx:else bindtap="todayInput">{{ankle_left_today}}</view>
-            </view>
-            <view class="weui-cell__bd">
-              <input wx:if="{{today_input_enable || !ankle_right_today}}" type="digit" class="weui-input" placeholder="点击输入" placeholder-class="weui-input__placeholder" model:value="{{ankle_right_today}}" bindinput="input" />
-              <view wx:else bindtap="todayInput">{{ankle_right_today}}</view>
-            </view>
-          </view>
-          <view class="weui-cell weui-cell_active">
-            <view class="weui-cell__hd">
-              <label class="weui-label">小腿中部</label>
-            </view>
-            <view class="weui-cell__bd">
-              <input wx:if="{{today_input_enable || !shank_left_today}}" type="digit" class="weui-input" placeholder="点击输入" placeholder-class="weui-input__placeholder" model:value="{{shank_left_today}}" bindinput="input" />
-              <view wx:else bindtap="todayInput">{{shank_left_today}}</view>
-            </view>
-            <view class="weui-cell__bd">
-              <input wx:if="{{today_input_enable || !shank_right_today}}" type="digit" class="weui-input" placeholder="点击输入" placeholder-class="weui-input__placeholder" model:value="{{shank_right_today}}" bindinput="input" />
-              <view wx:else bindtap="todayInput">{{shank_right_today}}</view>
-            </view>
-          </view>
-          <view class="weui-cell weui-cell_active">
-            <view class="weui-cell__hd">
-              <label class="weui-label">大腿中部</label>
-            </view>
-            <view class="weui-cell__bd">
-              <input wx:if="{{today_input_enable || !thigh_left_today}}" type="digit" class="weui-input" placeholder="点击输入" placeholder-class="weui-input__placeholder" model:value="{{thigh_left_today}}" bindinput="input" />
-              <view wx:else bindtap="todayInput">{{thigh_left_today}}</view>
-            </view>
-            <view class="weui-cell__bd">
-              <input wx:if="{{today_input_enable || !thigh_right_today}}" type="digit" class="weui-input" placeholder="点击输入" placeholder-class="weui-input__placeholder" model:value="{{thigh_right_today}}" bindinput="input" />
-              <view wx:else bindtap="todayInput">{{thigh_right_today}}</view>
-            </view>
-          </view>
+  <view class="weui-article">
+    <view aria-role="heading" aria-level="4" class="weui-article__h1">水肿监测分析</view>
+    <view class="page__bd page__bd_spacing">
+      <view class="weui-flex">
+        <view class="weui-flex__item">
+          <navigator url="/pages/article4431/index" class="placeholder">
+            水肿数据录入
+          </navigator>
         </view>
       </view>
-    </view>
-    <view class="weui-form__opr-area">
-      <a aria-role="button" class="weui-btn weui-btn_primary" bindtap="submit">确定</a>
-    </view>
-    <view aria-role="alert" class="fadeIn {{hideToast ? 'fadeOut' : ''}}" wx:if="{{toast}}">
-      <view class="weui-mask_transparent"></view>
-      <view class="weui-toast">
-        <i class="weui-icon-success-no-circle weui-icon_toast"></i>
-        <view class="weui-toast__content">提交成功</view>
+      <view class="weui-flex">
+        <view class="weui-flex__item">
+          <navigator url="/pages/article4432/index" class="placeholder">
+            水肿趋势分析
+          </navigator>
+        </view>
       </view>
     </view>
   </view>
