@@ -5,14 +5,26 @@ Page({
    * Page initial data
    */
   data: {
-
+    openid: '',
+    checkIn9Am: false,
+    checkIn3Pm: false,
+    checkIn6Pm: false,
   },
 
   /**
    * Lifecycle function--Called when page load
    */
   onLoad(options) {
-
+    let self = this
+    wx.cloud.callFunction({
+      name: 'getId',
+      success: function (res) {
+        self.setData({
+          openid: res.result.openid
+        })
+      },
+      fail: console.error
+    })
   },
 
   /**
@@ -26,7 +38,38 @@ Page({
    * Lifecycle function--Called when page show
    */
   onShow() {
-
+    const date = new Date()
+    let self = this
+    const db = wx.cloud.database()
+    db.collection('zkf_check_in').where({
+      _openid: this.data.openid,
+      type: 'sport',
+      date: date.toLocaleDateString()
+    }).get({
+      success: function (res) {
+        for (var indexData in res.data) {
+          if (res.data[indexData].step === '9AM') {
+            self.setData({
+              checkIn9Am: true
+            })
+          } else if (res.data[indexData].step === '3PM') {
+            self.setData({
+              checkIn3Pm: true
+            })
+          } else if (res.data[indexData].step === '6PM') {
+            self.setData({
+              checkIn6Pm: true
+            })
+          }
+        }
+      },
+      fail: err => {
+        console.error('[数据库] [查询记录] 失败：', err)
+      },
+      complete: () => {
+        // console.log('[数据库] [查询记录] 完成')
+      }
+    })
   },
 
   /**
@@ -62,5 +105,33 @@ Page({
    */
   onShareAppMessage() {
 
+  },
+
+  checkIn(e) {
+    const date = new Date()
+    const db = wx.cloud.database()
+    db.collection('zkf_check_in').add({
+      data: {
+        type: 'sport',
+        step: e.currentTarget.dataset.step,
+        date: date.toLocaleDateString()
+      },
+      success: function (res) {
+        console.log(res)
+      }
+    })
+    if (e.currentTarget.dataset.step === '9AM') {
+      this.setData({
+        checkIn9Am: true
+      })
+    } else if (e.currentTarget.dataset.step === '3PM') {
+      this.setData({
+        checkIn3Pm: true
+      })
+    } else if (e.currentTarget.dataset.step === '6PM') {
+      this.setData({
+        checkIn6Pm: true
+      })
+    }
   }
 })

@@ -9,13 +9,16 @@
         <view class="weui-cells">
           <label class="weui-cell weui-cell_active weui-cell_switch">
             <view class="weui-cell__bd">上午9点</view>
-            <view>已打卡</view>
+            <view wx:if="{{checkIn9Am}}">已打卡</view>
+            <view wx:else class="weui-btn weui-btn_mini weui-btn_default weui-wa-hotarea" aria-role="button" data-step="9AM" bindtap="checkIn">打卡</view>
           </label><label class="weui-cell weui-cell_active weui-cell_switch">
             <view class="weui-cell__bd">下午3点</view>
-            <view class="weui-btn weui-btn_mini weui-btn_default weui-wa-hotarea" aria-role="button">打卡</view>
+            <view wx:if="{{checkIn3Pm}}">已打卡</view>
+            <view wx:else class="weui-btn weui-btn_mini weui-btn_default weui-wa-hotarea" aria-role="button" data-step="3PM" bindtap="checkIn">打卡</view>
           </label><label class="weui-cell weui-cell_active weui-cell_switch">
             <view class="weui-cell__bd">晚上6点</view>
-            <view class="weui-btn weui-btn_mini weui-btn_default weui-wa-hotarea" aria-role="button">打卡</view>
+            <view wx:if="{{checkIn6Pm}}">已打卡</view>
+            <view wx:else class="weui-btn weui-btn_mini weui-btn_default weui-wa-hotarea" aria-role="button" data-step="6PM" bindtap="checkIn">打卡</view>
           </label>
         </view>
       </view>
