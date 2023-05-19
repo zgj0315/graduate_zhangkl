@@ -13,7 +13,14 @@
       <view class="weui-flex">
         <view class="weui-flex__item">
           <navigator url="/pages/article442/index" class="placeholder">
-            运动预防 -- 跟做做防水肿
+            运动预防 -- 跟我做防水肿
+          </navigator>
+        </view>
+      </view>
+      <view class="weui-flex">
+        <view class="weui-flex__item">
+          <navigator url="/pages/article443/index" class="placeholder">
+            测量腿维 -- 实时趋势分析
           </navigator>
         </view>
       </view>
