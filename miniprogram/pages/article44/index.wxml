@@ -20,7 +20,7 @@
       <view class="weui-flex">
         <view class="weui-flex__item">
           <navigator url="/pages/article443/index" class="placeholder">
-            测量腿维 -- 实时趋势分析
+            测量腿围 -- 实时趋势分析
           </navigator>
         </view>
       </view>
