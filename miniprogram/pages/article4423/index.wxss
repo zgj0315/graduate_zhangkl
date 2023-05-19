@@ -1,1 +1,6 @@
-/* pages/article4423/index.wxss */
+/*!
+ * WeUI v2.5.16 (https://github.com/weui/weui-wxss)
+ * Copyright 2023 Tencent, Inc.
+ * Licensed under the MIT license
+ */
+ .page{height:100%}

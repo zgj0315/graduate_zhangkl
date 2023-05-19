@@ -1,2 +1,24 @@
-<!--pages/article4413/index.wxml-->
-<text>pages/article4413/index.wxml</text>
+<page-meta root-font-size="system" />
+<view class="page" data-weui-theme="{{theme}}" data-weui-mode="{{mode}}">
+  <view class="weui-form">
+    <view class="weui-form__text-area">
+      <view class="weui-form__title">药物敷贴打卡</view>
+    </view>
+    <view class="weui-form__control-area">
+      <view class="weui-cells__group weui-cells__group_form">
+        <view class="weui-cells">
+          <label class="weui-cell weui-cell_active weui-cell_switch">
+            <view class="weui-cell__bd">上午9点</view>
+            <view>已打卡</view>
+          </label><label class="weui-cell weui-cell_active weui-cell_switch">
+            <view class="weui-cell__bd">下午3点</view>
+            <view class="weui-btn weui-btn_mini weui-btn_default weui-wa-hotarea" aria-role="button">打卡</view>
+          </label><label class="weui-cell weui-cell_active weui-cell_switch">
+            <view class="weui-cell__bd">晚上6点</view>
+            <view class="weui-btn weui-btn_mini weui-btn_default weui-wa-hotarea" aria-role="button">打卡</view>
+          </label>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
