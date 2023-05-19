@@ -1,2 +1,16 @@
-<!--pages/article4421/index.wxml-->
-<text>pages/article4421/index.wxml</text>
+<page-meta root-font-size="system" />
+<view class="page" data-weui-theme="{{theme}}" data-weui-mode="{{mode}}">
+  <view class="weui-article">
+    <view aria-role="heading" aria-level="4" class="weui-article__h1">运动预防</view>
+    <view class="weui-article__section">
+      <view class="weui-article__p">
+        ①空中下肢运动：仰卧位，双侧髋关节屈曲，双足指向天花板，下肢交替动作似骑车、行走，20次为一组，每日2－3组。
+      </view>
+      <image class="weui-article__img" src="cloud://cloud1-6gasybaa35d3d897.636c-cloud1-6gasybaa35d3d897-1317408832/image/063.png" mode="aspectFit" style="height: 180px;" />
+      <view class="weui-article__p">
+        ②股四头肌训练：患者于床上做直腿抬高运动，不要求抬起的高度，但要有5s左右的滞空时间，20次为一组，每日2－3组。
+      </view>
+      <image class="weui-article__img" src="cloud://cloud1-6gasybaa35d3d897.636c-cloud1-6gasybaa35d3d897-1317408832/image/064.png" mode="aspectFit" style="height: 180px;" />
+    </view>
+  </view>
+</view>
