@@ -1,2 +1,18 @@
-<!--pages/article4422/index.wxml-->
-<text>pages/article4422/index.wxml</text>
+<page-meta root-font-size="system" />
+<view class="page" data-weui-theme="{{theme}}" data-weui-mode="{{mode}}">
+  <view class="weui-article">
+    <view aria-role="heading" aria-level="4" class="weui-article__h1">运动预防</view>
+    <view class="weui-article__section">
+      <view class="weui-article__h2">股四头肌训练</view>
+      <view class="weui-article__p">
+        <video id="myVideo" src="cloud://cloud1-6gasybaa35d3d897.636c-cloud1-6gasybaa35d3d897-1317408832/video/63_1681892986.mp4" binderror="videoErrorCallback" danmu-list="{{danmuList}}" show-casting-button show-screen-lock-button show-center-play-btn='{{false}}' show-play-btn="{{true}}" muted="{{true}}" show-mute-btn="{{true}}" controls picture-in-picture-mode="{{['push', 'pop']}}"></video>
+      </view>
+    </view>
+    <view class="weui-article__section">
+      <view class="weui-article__h2">空中下肢运动</view>
+      <view class="weui-article__p">
+        <video id="myVideo" src="cloud://cloud1-6gasybaa35d3d897.636c-cloud1-6gasybaa35d3d897-1317408832/video/64_1681892990.mp4" binderror="videoErrorCallback" danmu-list="{{danmuList}}" show-casting-button show-screen-lock-button show-center-play-btn='{{false}}' show-play-btn="{{true}}" muted="{{true}}" show-mute-btn="{{true}}" controls picture-in-picture-mode="{{['push', 'pop']}}"></video>
+      </view>
+    </view>
+  </view>
+</view>

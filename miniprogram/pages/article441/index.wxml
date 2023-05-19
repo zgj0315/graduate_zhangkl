@@ -20,7 +20,7 @@
       <view class="weui-flex">
         <view class="weui-flex__item">
           <navigator url="/pages/article4413/index" class="placeholder">
-            药物敷贴打开
+            药物敷贴打卡
           </navigator>
         </view>
       </view>
