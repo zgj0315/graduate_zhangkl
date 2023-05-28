@@ -1,0 +1,109 @@
+<page-meta root-font-size="system" />
+<view class="page" data-weui-theme="{{theme}}" data-weui-mode="{{mode}}">
+  <view class="weui-article">
+    <view aria-role="heading" aria-level="4" class="weui-article__h1">术后护理及居家观察</view>
+    <view class="weui-article__section">
+      <view class="weui-article__h2">症状观察</view>
+      <view class="weui-article__section">
+        <view class="weui-article__p">
+          1、伤口：注意伤口愈合情况。若出现大量渗血、裂开、红肿、硬结、疼痛或发热等症状及时就诊。
+        </view>
+        <view class="weui-article__p">
+          2、分泌物：全子宫切除后7-14天，阴道可有少量粉红色分泌物，属正常现象，不需处理，保证会阴清洁。如阴道出血多于月经量，应及时就诊。
+        </view>
+        <view class="weui-article__p">
+          3、体温：监测体温，如大于38.5度，及时就诊。
+        </view>
+        <view class="weui-article__p">
+          4、淋巴水肿：关注腹股沟及下腹部是否出现包块可伴有发热，双下肢是否持续肿胀。
+        </view>
+        <view class="weui-article__p">
+          5、肠梗阻：关注是否有腹痛腹胀，排气排便消失。
+        </view>
+        <image class="weui-article__img" src="cloud://cloud1-6gasybaa35d3d897.636c-cloud1-6gasybaa35d3d897-1317408832/image/033.png" mode="aspectFit" style="height: 180px;" />
+      </view>
+    </view>
+    <view class="weui-article__section">
+      <view class="weui-article__h2">饮食</view>
+      <view class="weui-article__section">
+        <view class="weui-article__p">
+          1、术后第一天可进食流质饮食，忌食牛奶和甜食，肛门排气后可进食半流食，排便后可进食普食。进行胃肠减压的病人均应禁食。
+        </view>
+        <view class="weui-article__p">
+          2、居家早期应进食营养丰富，清淡，易消化的食物，慢慢进食一些高蛋白，高热量，高维生素的饮食，逐步增加食量。多吃新鲜蔬菜和水果。
+        </view>
+        <image class="weui-article__img" src="cloud://cloud1-6gasybaa35d3d897.636c-cloud1-6gasybaa35d3d897-1317408832/image/034.png" mode="aspectFit" style="height: 180px;" />
+      </view>
+    </view>
+    <view class="weui-article__section">
+      <view class="weui-article__h2">休息与活动</view>
+      <view class="weui-article__section">
+        <view class="weui-article__p">
+          1、术后早期下床活动，利于肠蠕动，防止肠粘连，利于术后身体快速康复。
+        </view>
+        <view class="weui-article__p">
+          2、对于年老体弱的病人，如居家期间仍卧床时间长建议每日做踝泵运动，可增加下肢血液回流，减少下肢血栓形成的发生。（二维码）
+        </view>
+        <image class="weui-article__img" src="cloud://cloud1-6gasybaa35d3d897.636c-cloud1-6gasybaa35d3d897-1317408832/image/039.jpg" mode="aspectFit" style="height: 180px;" />
+        <view class="weui-article__p">
+          3、术后多休息，有足够的睡眠。
+        </view>
+        <view class="weui-article__p">
+          4、逐步增加活动时间及活动量，活动量大小应以病人耐受而定，应尽力而行。
+        </view>
+      </view>
+    </view>
+    <view class="weui-article__section">
+      <view class="weui-article__h2">环境</view>
+      <view class="weui-article__section">
+        <view class="weui-article__p">
+          1、保证居家温度适宜、清洁，每日开窗通风2次，每次30分钟。
+        </view>
+        <view class="weui-article__p">
+          2、减少亲朋好友探访，以防感染。
+        </view>
+        <image class="weui-article__img" src="cloud://cloud1-6gasybaa35d3d897.636c-cloud1-6gasybaa35d3d897-1317408832/image/035.png" mode="aspectFit" style="height: 180px;" />
+      </view>
+    </view>
+    <view class="weui-article__section">
+      <view class="weui-article__h2">生活</view>
+      <view class="weui-article__section">
+        <view class="weui-article__p">
+          1、洗澡：建议术后伤口痂皮脱落后，淋浴，温水洗澡，一个月内禁盆浴，不要泡澡，不要泡温泉，游泳等。在痂皮脱落前保证伤口不被弄湿的情况下可以进行擦身，在出院回家以后可以使用防水敷料后进行洗澡。伤口拆线后可淋浴。
+        </view>
+        <view class="weui-article__p">
+          2、家务:体力恢复后可简单进行家务活动，逐步回归工作。
+        </view>
+        <view class="weui-article__p">
+          3、性生活:术后一个月内禁性生活，复查后根据伤口恢复情况，咨询医生。
+        </view>
+      </view>
+    </view>
+    <view class="weui-article__section">
+      <view class="weui-article__h2">延续护理</view>
+      <view class="weui-article__section">
+        <view class="weui-article__p">
+          1、引流管：出院如仍有引流管，确保管路固定良好，不拉拽。活动时固定位置不要高于穿刺点。如引流量突然增多或大量出血，引流管脱出请及时就诊。
+        </view>
+        <view class="weui-article__p">
+          2、尿管：
+          （1）出院如仍有尿管，确保尿管固定良好，不拉拽。活动时固定位置不要高于尿道口。保持会阴清洁，如有疼痛或排尿不畅及时就诊。
+          （2）遵医嘱进行膀胱功能训练。训练时间：日间（6:00~22:00）每2~3小时开放一次，每次开放30分钟；晚间（22:00~6:00）持续开放尿管。
+        </view>
+        <view class="weui-article__p">
+          3、弹力袜：一般建议穿2-4周左右，白天穿6-8小时，晚上脱下。每日正常下地活动达4小时以上可以停止穿戴
+        </view>
+        <view class="weui-article__p">
+          4、腹带：出院回家后无需24小时佩戴腹带，建议变换体位时先绑腹带，减少剧烈活动对伤口引发的张力
+        </view>
+        <view class="weui-article__p">
+          5、大黄芒硝:已行盆腔淋巴结清扫的患者需在术后第4天开始使用，以1:4的比例，以布袋包裹外敷于双侧髂窝淋巴结处，直至淋巴液无渗出为止，敷的时间为3个月，如果药袋完全浸湿，应予以更换。
+        </view>
+        <view class="weui-article__p">
+          6、复诊：按照诊断证明的复诊时间按期复诊。
+        </view>
+        <image class="weui-article__img" src="cloud://cloud1-6gasybaa35d3d897.636c-cloud1-6gasybaa35d3d897-1317408832/image/036.png" mode="aspectFit" style="height: 180px;" />
+      </view>
+    </view>
+  </view>
+</view>

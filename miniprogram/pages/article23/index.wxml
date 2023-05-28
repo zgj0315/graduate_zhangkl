@@ -1,0 +1,86 @@
+<page-meta root-font-size="system" />
+<view class="page" data-weui-theme="{{theme}}" data-weui-mode="{{mode}}">
+  <view class="weui-article">
+    <view aria-role="heading" aria-level="4" class="weui-article__h1">子宫内膜癌</view>
+    <view class="weui-article__section">
+      <view class="weui-article__p">
+        <image class="weui-article__img" src="cloud://cloud1-6gasybaa35d3d897.636c-cloud1-6gasybaa35d3d897-1317408832/image/023.jpg" mode="aspectFit" style="height: 180px;" />
+      </view>
+    </view>
+    <view class="weui-article__section">
+      <view class="weui-article__h2">概念</view>
+      <view class="weui-article__section">
+        <view class="weui-article__p">
+          子宫内膜癌是发生于子宫内膜的一组上皮性恶性肿瘤。是一种生殖内分泌失调的一种疾病，主要是由于雌激素过多刺激子宫内膜引起，常发生在围绝经期和绝经后妇女。
+          <image class="weui-article__img" src="cloud://cloud1-6gasybaa35d3d897.636c-cloud1-6gasybaa35d3d897-1317408832/image/024.jpg" mode="aspectFit" style="height: 180px;" />
+          <image class="weui-article__img" src="cloud://cloud1-6gasybaa35d3d897.636c-cloud1-6gasybaa35d3d897-1317408832/image/025.jpg" mode="aspectFit" style="height: 180px;" />
+          <image class="weui-article__img" src="cloud://cloud1-6gasybaa35d3d897.636c-cloud1-6gasybaa35d3d897-1317408832/image/026.png" mode="aspectFit" style="height: 180px;" />
+          <image class="weui-article__img" src="cloud://cloud1-6gasybaa35d3d897.636c-cloud1-6gasybaa35d3d897-1317408832/image/027.jpg" mode="aspectFit" style="height: 180px;" />
+        </view>
+      </view>
+    </view>
+    <view class="weui-article__section">
+      <view class="weui-article__h2">危险因素</view>
+      <view class="weui-article__section">
+        <view class="weui-article__p">
+          肥胖，高血压，糖尿病，初潮早和绝经晚，不孕不育，卵巢疾病是高危因素。
+        </view>
+      </view>
+    </view>
+    <view class="weui-article__section">
+      <view class="weui-article__h2">症状</view>
+      <view class="weui-article__section">
+        <view class="weui-article__p">
+          早期绝经后不规则阴道出血，有的患者表现阴道异常排液，浆液性或血性分泌物。
+          围绝经期 患者可以表现为月经量增多、月经期延长、月经 淋漓不尽、月经间期出血。
+          晚期子宫增大，若肿瘤侵犯子宫颈内口，导致子宫腔积血或积脓，可引起下腹胀痛及痉挛样疼痛。晚期患者因癌组织侵犯周围组织或神经可引起下腹及腰骶部疼痛。
+          <image class="weui-article__img" src="cloud://cloud1-6gasybaa35d3d897.636c-cloud1-6gasybaa35d3d897-1317408832/image/028.jpg" mode="aspectFit" style="height: 180px;" />
+          <image class="weui-article__img" src="cloud://cloud1-6gasybaa35d3d897.636c-cloud1-6gasybaa35d3d897-1317408832/image/029.jpg" mode="aspectFit" style="height: 180px;" />
+        </view>
+      </view>
+    </view>
+    <view class="weui-article__section">
+      <view class="weui-article__h2">筛查</view>
+      <view class="weui-article__section">
+        <view class="weui-article__p">
+          高度怀疑子宫内膜病变时，应进行子宫颈细胞学检查、子宫内膜活检以明确诊断。
+          子宫内膜活体组织病理学检查是确诊子宫内膜癌的“金标准”。
+          <image class="weui-article__img" src="cloud://cloud1-6gasybaa35d3d897.636c-cloud1-6gasybaa35d3d897-1317408832/image/030.jpg" mode="aspectFit" style="height: 180px;" />
+        </view>
+      </view>
+    </view>
+    <view class="weui-article__section">
+      <view class="weui-article__h2">影像学检查</view>
+      <view class="weui-article__section">
+        <view class="weui-article__p">
+          ①超声检查是子宫内膜癌最常用的检查方法，盆腔超声可以初步了解子宫体大小、子宫内膜厚度、肌层浸润情况、附件有无占位等，经阴道彩超检查的准确性更高；
+          ②盆腹腔增强MRI或增强 CT可用于评估子宫肿瘤累及范围、盆腹腔淋巴结及其他器官累及情况，首选增强MRI，其对评估子宫内膜癌灶子宫肌层浸润深度和范围、子宫颈间质受累情况具有较高的特异性
+          ③怀疑有胸部转移，胸部影像学检查推荐胸部CT扫描；
+          ④对于有可疑远处转移的患者，推荐全身PET/CT检查。
+          <image class="weui-article__img" src="cloud://cloud1-6gasybaa35d3d897.636c-cloud1-6gasybaa35d3d897-1317408832/image/031.png" mode="aspectFit" style="height: 180px;" />
+          <image class="weui-article__img" src="cloud://cloud1-6gasybaa35d3d897.636c-cloud1-6gasybaa35d3d897-1317408832/image/032.jpg" mode="aspectFit" style="height: 180px;" />
+        </view>
+      </view>
+    </view>
+    <view class="weui-article__section">
+      <view class="weui-article__h2">预后</view>
+      <view class="weui-article__section">
+        <view class="weui-article__p">
+          70％的子宫内膜癌诊断时肿瘤局限于子宫体，属临床早期，预后较好。子宫外转移的晚期和高危组织学类型患者预后不良。临床上可将子宫内膜癌分为Ⅰ型和Ⅱ型，Ⅰ型为激素依赖型，病理类型以子宫内膜样癌为主，预后较好；Ⅱ型为非激素依赖型，主要包括浆液性癌、透明细胞癌、癌肉瘤等，预后较差。
+        </view>
+      </view>
+    </view>
+    <view class="weui-article__section">
+      <view class="weui-article__h2">治疗</view>
+      <view class="weui-article__section">
+        <view class="weui-article__p">
+          1. 手术治疗为主:根据子宫内膜癌分期采取不同的术式。
+          2. 化疗：卡铂联合紫杉醇是治疗晚期、转移性或复发性子宫内膜癌的首选化疗方案。
+          3. 放疗：主要用于子宫内膜癌的术后辅助治疗。分为体外照射和（或）近距离腔内照射。体外放疗包括盆腔区域和（或）腹主动脉区域。
+          4. 靶向治疗
+          5. 激素治疗：采用以孕激素为基础的连续治疗，治疗期间每3~6个月进行子宫内膜病理学检查评估，可采用诊断性刮宫或宫腔镜下子宫内膜活检，推荐宫腔镜检查评估子宫内膜。
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

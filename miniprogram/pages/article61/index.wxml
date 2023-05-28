@@ -1,0 +1,46 @@
+<page-meta root-font-size="system" />
+<view class="page" data-weui-theme="{{theme}}" data-weui-mode="{{mode}}">
+  <view class="weui-article">
+    <view class="weui-article__section">
+      <view class="weui-article__p">
+        <button type="primary" data-src="cloud://cloud1-6gasybaa35d3d897.636c-cloud1-6gasybaa35d3d897-1317408832/relax_music/BlackDD - 夏日美梦（纯音乐）.mp3" bindtap="audioPlay">夏日美梦</button>
+      </view>
+      <view class="weui-article__p">
+        <button type="primary" data-src="cloud://cloud1-6gasybaa35d3d897.636c-cloud1-6gasybaa35d3d897-1317408832/relax_music/CMJ - 漫天星光（纯音乐版）.mp3" bindtap="audioPlay">漫天星光</button>
+      </view>
+      <view class="weui-article__p">
+        <button type="primary" data-src="cloud://cloud1-6gasybaa35d3d897.636c-cloud1-6gasybaa35d3d897-1317408832/relax_music/Crystalheart - 轻音乐.mp3" bindtap="audioPlay">Crystalheart</button>
+      </view>
+      <view class="weui-article__p">
+        <button type="primary" data-src="cloud://cloud1-6gasybaa35d3d897.636c-cloud1-6gasybaa35d3d897-1317408832/relax_music/宗次郎 - いつも何度でも.mp3" bindtap="audioPlay">宗次郎 - いつも何度でも</button>
+      </view>
+      <view class="weui-article__p">
+        <button type="primary" data-src="cloud://cloud1-6gasybaa35d3d897.636c-cloud1-6gasybaa35d3d897-1317408832/relax_music/治愈纯音 - 助眠放松钢琴曲.mp3" bindtap="audioPlay">治愈纯音</button>
+      </view>
+      <view class="weui-article__p">
+        <button type="primary" data-src="cloud://cloud1-6gasybaa35d3d897.636c-cloud1-6gasybaa35d3d897-1317408832/relax_music/祭酒 - Dreamworld(梦境）.mp3" bindtap="audioPlay">Dreamworld</button>
+      </view>
+      <view class="weui-article__p">
+        <button type="primary" data-src="cloud://cloud1-6gasybaa35d3d897.636c-cloud1-6gasybaa35d3d897-1317408832/relax_music/纯音乐之声 - 思绪放松纯音乐.mp3" bindtap="audioPlay">思绪放松纯音乐</button>
+      </view>
+      <view class="weui-article__p">
+        <button type="primary" data-src="cloud://cloud1-6gasybaa35d3d897.636c-cloud1-6gasybaa35d3d897-1317408832/relax_music/纯音乐之声 - 盛夏与蝉鸣（钢琴曲）.mp3" bindtap="audioPlay">盛夏与蝉鸣</button>
+      </view>
+      <view class="weui-article__p">
+        <button type="primary" data-src="cloud://cloud1-6gasybaa35d3d897.636c-cloud1-6gasybaa35d3d897-1317408832/relax_music/轻音乐馆 - 轻音乐 (钢琴).mp3" bindtap="audioPlay">轻音乐</button>
+      </view>
+      <view class="weui-article__p">
+        <button type="primary" data-src="cloud://cloud1-6gasybaa35d3d897.636c-cloud1-6gasybaa35d3d897-1317408832/relax_music/轻音乐馆 - 轻音乐.秋天的田野（钢琴）.mp3" bindtap="audioPlay">秋天的田野</button>
+      </view>
+      <view class="weui-article__p">
+        <button type="primary" data-src="cloud://cloud1-6gasybaa35d3d897.636c-cloud1-6gasybaa35d3d897-1317408832/relax_music/郭燕 - 天空之城 (钢琴版).mp3" bindtap="audioPlay">天空之城</button>
+      </view>
+      <view class="weui-article__p">
+        <button type="primary" data-src="cloud://cloud1-6gasybaa35d3d897.636c-cloud1-6gasybaa35d3d897-1317408832/relax_music/阿铭 - 夏之风.mp3" bindtap="audioPlay">夏之风</button>
+      </view>
+      <view class="weui-article__p">
+        <button type="primary" data-src="cloud://cloud1-6gasybaa35d3d897.636c-cloud1-6gasybaa35d3d897-1317408832/relax_music/饭碗的彼岸 - 风居住的街道（Piano ver） (翻自 磯村由紀子）.mp3" bindtap="audioPlay">风居住的街道</button>
+      </view>
+    </view>
+  </view>
+</view>

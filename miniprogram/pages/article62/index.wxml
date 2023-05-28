@@ -1,0 +1,100 @@
+<page-meta root-font-size="system" />
+<view class="page" data-weui-theme="{{theme}}" data-weui-mode="{{mode}}">
+  <view class="weui-article">
+    <view class="weui-article__section">
+      <view class="weui-article__p">
+      <image class="weui-article__img" src="cloud://cloud1-6gasybaa35d3d897.636c-cloud1-6gasybaa35d3d897-1317408832/relax_picture/1.jpg" />
+      </view>
+      <view class="weui-article__p">
+        <image class="weui-article__img" src="cloud://cloud1-6gasybaa35d3d897.636c-cloud1-6gasybaa35d3d897-1317408832/relax_picture/2.jpg" />
+      </view>
+      <view class="weui-article__p">
+        <image class="weui-article__img" src="cloud://cloud1-6gasybaa35d3d897.636c-cloud1-6gasybaa35d3d897-1317408832/relax_picture/3.jpg" />
+      </view>
+      <view class="weui-article__p">
+        <image class="weui-article__img" src="cloud://cloud1-6gasybaa35d3d897.636c-cloud1-6gasybaa35d3d897-1317408832/relax_picture/4.jpg" />
+      </view>
+      <view class="weui-article__p">
+        <image class="weui-article__img" src="cloud://cloud1-6gasybaa35d3d897.636c-cloud1-6gasybaa35d3d897-1317408832/relax_picture/5.jpg" />
+      </view>
+      <view class="weui-article__p">
+        <image class="weui-article__img" src="cloud://cloud1-6gasybaa35d3d897.636c-cloud1-6gasybaa35d3d897-1317408832/relax_picture/6.jpg" />
+      </view>
+      <view class="weui-article__p">
+        <image class="weui-article__img" src="cloud://cloud1-6gasybaa35d3d897.636c-cloud1-6gasybaa35d3d897-1317408832/relax_picture/7.jpg" />
+      </view>
+      <view class="weui-article__p">
+        <image class="weui-article__img" src="cloud://cloud1-6gasybaa35d3d897.636c-cloud1-6gasybaa35d3d897-1317408832/relax_picture/8.jpg" />
+      </view>
+      <view class="weui-article__p">
+        <image class="weui-article__img" src="cloud://cloud1-6gasybaa35d3d897.636c-cloud1-6gasybaa35d3d897-1317408832/relax_picture/9.jpg" />
+      </view>
+      <view class="weui-article__p">
+        <image class="weui-article__img" src="cloud://cloud1-6gasybaa35d3d897.636c-cloud1-6gasybaa35d3d897-1317408832/relax_picture/10.jpg" />
+      </view>
+      <view class="weui-article__p">
+        <image class="weui-article__img" src="cloud://cloud1-6gasybaa35d3d897.636c-cloud1-6gasybaa35d3d897-1317408832/relax_picture/11.jpg" />
+      </view>
+      <view class="weui-article__p">
+        <image class="weui-article__img" src="cloud://cloud1-6gasybaa35d3d897.636c-cloud1-6gasybaa35d3d897-1317408832/relax_picture/12.jpg" />
+      </view>
+      <view class="weui-article__p">
+        <image class="weui-article__img" src="cloud://cloud1-6gasybaa35d3d897.636c-cloud1-6gasybaa35d3d897-1317408832/relax_picture/13.jpg" />
+      </view>
+      <view class="weui-article__p">
+        <image class="weui-article__img" src="cloud://cloud1-6gasybaa35d3d897.636c-cloud1-6gasybaa35d3d897-1317408832/relax_picture/14.jpg" />
+      </view>
+      <view class="weui-article__p">
+        <image class="weui-article__img" src="cloud://cloud1-6gasybaa35d3d897.636c-cloud1-6gasybaa35d3d897-1317408832/relax_picture/15.jpg" />
+      </view>
+      <view class="weui-article__p">
+        <image class="weui-article__img" src="cloud://cloud1-6gasybaa35d3d897.636c-cloud1-6gasybaa35d3d897-1317408832/relax_picture/16.jpg" />
+      </view>
+      <view class="weui-article__p">
+        <image class="weui-article__img" src="cloud://cloud1-6gasybaa35d3d897.636c-cloud1-6gasybaa35d3d897-1317408832/relax_picture/17.jpg" />
+      </view>
+      <view class="weui-article__p">
+        <image class="weui-article__img" src="cloud://cloud1-6gasybaa35d3d897.636c-cloud1-6gasybaa35d3d897-1317408832/relax_picture/18.jpg" />
+      </view>
+      <view class="weui-article__p">
+        <image class="weui-article__img" src="cloud://cloud1-6gasybaa35d3d897.636c-cloud1-6gasybaa35d3d897-1317408832/relax_picture/19.jpg" />
+      </view>
+      <view class="weui-article__p">
+        <image class="weui-article__img" src="cloud://cloud1-6gasybaa35d3d897.636c-cloud1-6gasybaa35d3d897-1317408832/relax_picture/20.jpg" />
+      </view>
+      <view class="weui-article__p">
+        <image class="weui-article__img" src="cloud://cloud1-6gasybaa35d3d897.636c-cloud1-6gasybaa35d3d897-1317408832/relax_picture/21.jpg" />
+      </view>
+      <view class="weui-article__p">
+        <image class="weui-article__img" src="cloud://cloud1-6gasybaa35d3d897.636c-cloud1-6gasybaa35d3d897-1317408832/relax_picture/22.jpg" />
+      </view>
+      <view class="weui-article__p">
+        <image class="weui-article__img" src="cloud://cloud1-6gasybaa35d3d897.636c-cloud1-6gasybaa35d3d897-1317408832/relax_picture/23.jpg" />
+      </view>
+      <view class="weui-article__p">
+        <image class="weui-article__img" src="cloud://cloud1-6gasybaa35d3d897.636c-cloud1-6gasybaa35d3d897-1317408832/relax_picture/24.jpg" />
+      </view>
+      <view class="weui-article__p">
+        <image class="weui-article__img" src="cloud://cloud1-6gasybaa35d3d897.636c-cloud1-6gasybaa35d3d897-1317408832/relax_picture/25.jpg" />
+      </view>
+      <view class="weui-article__p">
+        <image class="weui-article__img" src="cloud://cloud1-6gasybaa35d3d897.636c-cloud1-6gasybaa35d3d897-1317408832/relax_picture/26.jpg" />
+      </view>
+      <view class="weui-article__p">
+        <image class="weui-article__img" src="cloud://cloud1-6gasybaa35d3d897.636c-cloud1-6gasybaa35d3d897-1317408832/relax_picture/27.jpg" />
+      </view>
+      <view class="weui-article__p">
+        <image class="weui-article__img" src="cloud://cloud1-6gasybaa35d3d897.636c-cloud1-6gasybaa35d3d897-1317408832/relax_picture/28.jpg" />
+      </view>
+      <view class="weui-article__p">
+        <image class="weui-article__img" src="cloud://cloud1-6gasybaa35d3d897.636c-cloud1-6gasybaa35d3d897-1317408832/relax_picture/29.jpg" />
+      </view>
+      <view class="weui-article__p">
+        <image class="weui-article__img" src="cloud://cloud1-6gasybaa35d3d897.636c-cloud1-6gasybaa35d3d897-1317408832/relax_picture/30.jpg" />
+      </view>
+      <view class="weui-article__p">
+        <image class="weui-article__img" src="cloud://cloud1-6gasybaa35d3d897.636c-cloud1-6gasybaa35d3d897-1317408832/relax_picture/31.jpg" />
+      </view>
+    </view>
+  </view>
+</view>

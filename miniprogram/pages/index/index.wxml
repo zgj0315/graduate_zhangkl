@@ -1,32 +1,47 @@
-<!--index.wxml-->
-<view class="container">
-
-  <view class="title">智康妇</view>
-
-  <view class="top_tip">健康生活，健康工作</view>
-
-  <view class="power" wx:key="title" wx:for="{{powerList}}" wx:for-item="power">
-    <view class="power_info" data-index="{{index}}" bindtap="onClickPowerInfo">
-      <view class="power_info_text">
-        <view class="power_info_text_title">{{power.title}}</view>
-        <view class="power_info_text_tip">{{power.tip}}</view>
+<page-meta root-font-size="system" />
+<view class="page" data-weui-theme="{{theme}}" data-weui-mode="{{mode}}">
+  <view class="page__bd page__bd_spacing">
+    <view class="weui-flex">
+      <view class="weui-flex__item">
+        <navigator url="/pages/article1/index" class="placeholder">
+          <image src="cloud://cloud1-6gasybaa35d3d897.636c-cloud1-6gasybaa35d3d897-1317408832/image/001.png" style="width: 120rpx; height: 150rpx; "></image>
+          <view>专家简介</view>
+        </navigator>
       </view>
-      <image wx:if="{{!power.showItem}}" class="power_info_more" src="../../images/arrow.svg"></image>
-      <image wx:if="{{power.showItem}}" class="power_info_less" src="../../images/arrow.svg"></image>
+      <view class="weui-flex__item">
+        <navigator url="/pages/article2/index" class="placeholder">
+          <image src="cloud://cloud1-6gasybaa35d3d897.636c-cloud1-6gasybaa35d3d897-1317408832/image/002.png" style="width: 150rpx; height: 150rpx;"></image>
+          <view>健康科普</view>
+        </navigator>
+      </view>
     </view>
-    <view wx:if="{{power.showItem}}">
-      <view wx:key="title" wx:for="{{power.item}}">
-        <view class="line"></view>
-        <view class="power_item" bindtap="jumpPage" data-page="{{item.page}}">
-          <view class="power_item_title">{{item.title}}</view>
-          <image class="power_item_icon" src="../../images/arrow.svg"></image>
-        </view>
+    <view class="weui-flex">
+      <view class="weui-flex__item">
+        <navigator url="/pages/article3/index" class="placeholder">
+          <image src="cloud://cloud1-6gasybaa35d3d897.636c-cloud1-6gasybaa35d3d897-1317408832/image/003.png" style="width: 95rpx; height: 150rpx;"></image>
+          <view>术后行为建议</view>
+        </navigator>
+      </view>
+      <view class="weui-flex__item">
+        <navigator url="/pages/article4/index" class="placeholder">
+          <image src="cloud://cloud1-6gasybaa35d3d897.636c-cloud1-6gasybaa35d3d897-1317408832/image/004.png" style="width: 150rpx; height: 150rpx;"></image>
+          <view>常见并发症预警</view>
+        </navigator>
+      </view>
+    </view>
+    <view class="weui-flex">
+      <view class="weui-flex__item">
+        <navigator url="/pages/article51/index" class="placeholder">
+          <image src="cloud://cloud1-6gasybaa35d3d897.636c-cloud1-6gasybaa35d3d897-1317408832/image/005.png" style="width: 150rpx; height: 150rpx;"></image>
+          <view>化疗管理</view>
+        </navigator>
+      </view>
+      <view class="weui-flex__item">
+        <navigator url="/pages/article6/index" class="placeholder">
+          <image src="cloud://cloud1-6gasybaa35d3d897.636c-cloud1-6gasybaa35d3d897-1317408832/image/006.png" style="width: 150rpx; height: 150rpx;"></image>
+          <view>心理健康</view>
+        </navigator>
       </view>
     </view>
   </view>
-
-  <view class="environment" bindtap="onChangeShowEnvChoose">当前环境 {{ selectedEnv.alias }}</view>
-
-  <cloud-tip-modal showUploadTipProps="{{showUploadTip}}"></cloud-tip-modal>
-
 </view>

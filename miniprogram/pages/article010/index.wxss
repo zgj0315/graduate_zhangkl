@@ -1,5 +1,0 @@
-/* pages/article010/index.wxss */
-@import '../common.wxss';
-.checkbox{
-  margin-right: 10px;
-}

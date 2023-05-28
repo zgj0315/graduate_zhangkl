@@ -1,0 +1,25 @@
+<page-meta root-font-size="system" />
+<view class="page" data-weui-theme="{{theme}}" data-weui-mode="{{mode}}">
+  <view class="weui-form">
+    <view class="weui-form__text-area">
+      <h2 class="weui-form__title">化疗血小板</h2>
+      <view class="weui-form__desc" wx:if="{{inputed}}">{{message}}</view>
+    </view>
+    <view class="weui-form__control-area" wx:if="{{!inputed}}">
+      <view class="weui-cells__group weui-cells__group_form">
+        <view class="weui-cells__title">请输入您现在的血小板</view>
+        <view class="weui-cells">
+          <view class="weui-cell weui-cell_active">
+            <view class="weui-cell__hd"><label class="weui-label">血小板</label></view>
+            <view class="weui-cell__bd">
+              <input class="weui-input" type="digit" placeholder="请输入您现在的血小板" placeholder-class="weui-input__placeholder" model:value="{{input}}" bindinput="input" />
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="weui-form__opr-area" wx:if="{{!inputed}}">
+      <a aria-role="button" class="weui-btn weui-btn_primary" bindtap="submit">确定</a>
+    </view>
+  </view>
+</view>

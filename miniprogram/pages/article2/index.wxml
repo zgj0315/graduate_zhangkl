@@ -1,0 +1,26 @@
+<page-meta root-font-size="system" />
+<view class="page" data-weui-theme="{{theme}}" data-weui-mode="{{mode}}">
+  <view class="weui-article">
+    <view aria-role="heading" aria-level="4" class="weui-article__h1">重视筛查，提前预防</view>
+    <view class="page__bd page__bd_spacing">
+      <view class="weui-article__p">
+        有问题，早发现，早治疗
+      </view>
+      <view class="weui-flex">
+        <view class="weui-flex__item">
+          <navigator url="/pages/article21/index" class="placeholder">卵巢癌</navigator>
+        </view>
+        <view class="weui-flex__item">
+          <view class="weui-flex__item">
+            <navigator url="/pages/article22/index" class="placeholder">宫颈癌</navigator>
+          </view>
+        </view>
+        <view class="weui-flex__item">
+          <view class="weui-flex__item">
+            <navigator url="/pages/article23/index" class="placeholder">子宫内膜癌</navigator>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,29 @@
+<page-meta root-font-size="system" />
+<view class="page" data-weui-theme="{{theme}}" data-weui-mode="{{mode}}">
+  <view class="weui-article">
+    <view aria-role="heading" aria-level="4" class="weui-article__h1">术后随访</view>
+    <view class="weui-article__section">
+      <view class="weui-article__h2">短期复查</view>
+      <view class="weui-article__section">
+        <view class="weui-article__p">
+          请遵照出院诊断证明复查时间复诊，一般为术后一个月。
+        </view>
+      </view>
+    </view>
+    <view class="weui-article__section">
+      <view class="weui-article__h2">长期随访</view>
+      <view class="weui-article__section">
+        <view class="weui-article__p">
+          1、子宫颈癌随访时间：结束治疗最初2年内每3个月复查一次；第3-5年，每半年复查一次；然后每年随诊一次。II期以上患者治疗后3-6个月复查时应全身MRI或CT检查评估盆腔肿瘤控制情况，必要时行PET- CT检查。宫颈或阴道细胞学检查，根据临床症状提示必要的实验室检查及其他影像学检查。连续随诊5年后根据患者情况继续随诊。放疗后规律阴道冲洗，必要时使用阴道扩张器，尽早恢复性生活，均有利于减少阴道粘连。
+        </view>
+        <view class="weui-article__p">
+          2、子宫内膜癌随访时间：治疗结束后应继续定期随访，监测异常情况，及早发现复发征象早处理。一般在术后两年内，每3-6个月1次；术后3-5年，每6-12个月1次；病人有不适的感觉，应及时就诊检查。晚期或癌肿无法切净等特殊病人应按照医生要求进行随访。随访内容包括：关于可能的复发症状、生活方式、肥胖、运动、戒烟、营养咨询、性健康、阴道扩张器及阴道润滑剂使用的健康宣教；若初治时CA125升高则随访时复查；有临床适应症时应行影像学检查。
+        </view>
+        <view class="weui-article__p">
+          3、卵巢癌随访时间：应坚持长期随访。一般手术后2个月内第1次复诊；术后第1-2年，每3个月一次；术后3年，每3-6个月1次；术后5年以上，每年1次。
+        </view>
+        <image class="weui-article__img" src="cloud://cloud1-6gasybaa35d3d897.636c-cloud1-6gasybaa35d3d897-1317408832/image/042.png" mode="aspectFit" style="height: 180px;" />
+      </view>
+    </view>
+  </view>
+</view>

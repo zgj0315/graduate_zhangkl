@@ -1,0 +1,29 @@
+<page-meta root-font-size="system" />
+<view class="page" data-weui-theme="{{theme}}" data-weui-mode="{{mode}}">
+  <view class="weui-article">
+    <view aria-role="heading" aria-level="4" class="weui-article__h1">淋巴水肿预防</view>
+    <view class="page__bd page__bd_spacing">
+      <view class="weui-flex">
+        <view class="weui-flex__item">
+          <navigator url="/pages/article4421/index" class="placeholder">
+            运动方法
+          </navigator>
+        </view>
+      </view>
+      <view class="weui-flex">
+        <view class="weui-flex__item">
+          <navigator url="/pages/article4422/index" class="placeholder">
+            运动视频
+          </navigator>
+        </view>
+      </view>
+      <view class="weui-flex">
+        <view class="weui-flex__item">
+          <navigator url="/pages/article4423/index" class="placeholder">
+            运动打卡
+          </navigator>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

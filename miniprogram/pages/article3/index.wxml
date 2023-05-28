@@ -1,0 +1,23 @@
+<page-meta root-font-size="system" />
+<view class="page" data-weui-theme="{{theme}}" data-weui-mode="{{mode}}">
+  <view class="weui-article">
+    <view aria-role="heading" aria-level="4" class="weui-article__h1">术后行为建议</view>
+    <view class="page__bd page__bd_spacing">
+      <view class="weui-flex">
+        <view class="weui-flex__item">
+          <navigator url="/pages/article31/index" class="placeholder">术后护理及居家观察</navigator>
+        </view>
+      </view>
+      <view class="weui-flex">
+        <view class="weui-flex__item">
+          <navigator url="/pages/article32/index" class="placeholder">自我调适</navigator>
+        </view>
+      </view>
+      <view class="weui-flex">
+        <view class="weui-flex__item">
+          <navigator url="/pages/article33/index" class="placeholder">术后随访</navigator>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

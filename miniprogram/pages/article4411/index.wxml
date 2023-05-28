@@ -1,0 +1,23 @@
+<page-meta root-font-size="system" />
+<view class="page" data-weui-theme="{{theme}}" data-weui-mode="{{mode}}">
+  <view class="weui-article">
+    <view aria-role="heading" aria-level="4" class="weui-article__h1">药物敷贴</view>
+    <view class="weui-article__section">
+      <view class="weui-article__p">
+        ①使用目的:用大黄和芒硝湿敷，对预防和治疗可能出现的淋巴囊肿具有良好效果。
+      </view>
+      <view class="weui-article__p">
+        ②使用方法:大黄与芒硝1：4配比于布袋内
+      </view>
+      <image class="weui-article__img" src="cloud://cloud1-6gasybaa35d3d897.636c-cloud1-6gasybaa35d3d897-1317408832/image/060.jpeg" mode="aspectFit" style="height: 180px;" />
+      <image class="weui-article__img" src="cloud://cloud1-6gasybaa35d3d897.636c-cloud1-6gasybaa35d3d897-1317408832/image/061.jpeg" mode="aspectFit" style="height: 180px;" />
+      <image class="weui-article__img" src="cloud://cloud1-6gasybaa35d3d897.636c-cloud1-6gasybaa35d3d897-1317408832/image/062.jpeg" mode="aspectFit" style="height: 180px;" />
+      <view class="weui-article__p">
+        ③使用部位:髂前上棘四指内（髂前上棘位于腹部外侧，为两侧明显隆起的骨头所在处）
+      </view>
+      <view class="weui-article__p">
+        ④使用时间:术后第四天开始使用或遵医嘱使用。若药包出现潮湿或结块现象时可更换一次。连续使用3个月以上，直至布袋不再潮湿或结块。
+      </view>
+    </view>
+  </view>
+</view>
