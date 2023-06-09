@@ -42,7 +42,6 @@ Page({
     let self = this
     const db = wx.cloud.database()
     db.collection('zkf_check_in').where({
-      _openid: this.data.openid,
       type: 'sport',
       date: date.toLocaleDateString()
     }).get({

@@ -5,6 +5,8 @@ Page({
    * Page initial data
    */
   data: {
+    week_list: ['日', '一', '二', '三', '四', '五', '六'],
+    checkin_list: [],
 
   },
 
@@ -65,22 +67,27 @@ Page({
   },
 
   onLoad(options) {
-    this.showTabBar()
-    console.log('onLoad')
+
   },
 
   onShow() {
-    this.showTabBar()
-    console.log('onShow')
-  },
+    const db = wx.cloud.database()
+    db.collection('zkf_check_in').where({
 
-  showTabBar() {
-    console.log('showTabBar begin')
-    wx.showTabBar()
-    console.log('showTabBar end')
-  },
-
-  hideTabBar() {
-    wx.hideTabBar()
+    }).get({
+      success: function (res) {
+        for (var indexData in res.data) {
+          // console.log('res.data: ', res.data[indexData])
+          var date = new Date(res.data[indexData].date);
+          console.log('type: ', res.data[indexData].type, ', step: ', res.data[indexData].step, ', getDay: ', date.getDay())
+        }
+      },
+      fail: err => {
+        console.error('[数据库] [查询记录] 失败：', err)
+      },
+      complete: () => {
+        // console.log('[数据库] [查询记录] 完成')
+      }
+    })
   },
 })
