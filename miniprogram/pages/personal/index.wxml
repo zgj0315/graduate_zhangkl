@@ -1,3 +1,40 @@
-<!--pages/personal/index.wxml-->
-<text>pages/personal/index.wxml</text>
-<text>Coming Soon</text>
+<page-meta root-font-size="system" />
+<view class="page" data-weui-theme="{{theme}}" data-weui-mode="{{mode}}">
+  <view class="page__hd">
+    <view class="page__title">打卡记录</view>
+    <view class="page__desc">淋巴水肿打卡</view>
+  </view>
+  <view class="page__bd page__bd_spacing">
+    <view class="weui-flex">
+      <view class="weui-flex__item">
+        <view class="placeholder">日</view>
+      </view>
+      <view class="weui-flex__item">
+        <view class="placeholder">一</view>
+      </view>
+      <view class="weui-flex__item">
+        <view class="placeholder">二</view>
+      </view>
+      <view class="weui-flex__item">
+        <view class="placeholder">三</view>
+      </view>
+      <view class="weui-flex__item">
+        <view class="placeholder">四</view>
+      </view>
+      <view class="weui-flex__item">
+        <view class="placeholder">五</view>
+      </view>
+      <view class="weui-flex__item">
+        <view class="placeholder">六</view>
+      </view>
+    </view>
+    <view wx:for="{{checkin_list}}" wx:key="_id" class="weui-flex">
+      <block wx:for="{{item}}" wx:key="_id">
+        <view class="weui-flex__item">
+          <view wx:if="{{item[1]}}" class="placeholder" style="color: darkgreen;">{{item[0]}}</view>
+          <view wx:else class="placeholder" style="color: darkred;">{{item[0]}}</view>
+        </view>
+      </block>
+    </view>
+  </view>
+</view>
