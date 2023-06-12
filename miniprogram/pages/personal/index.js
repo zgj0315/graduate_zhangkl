@@ -76,24 +76,22 @@ Page({
     db.collection('zkf_check_in').where({
     }).orderBy('date', 'asc').get({
       success: function (res) {
-        var week_lasted = -1
         var week_list = []
         var checkin_list = []
-        var time = 0
+        var lasted_week_time_start = 0
         for (var indexData in res.data) {
           var date = new Date(res.data[indexData].date);
-          if (week_lasted <= date.getDay()) {
-            week_lasted = date.getDay()
-          } else {
-            checkin_list.push(week_list)
-            week_lasted = -1;
+          var week_time_start = date.getTime() - (date.getDay() * day_long)
+          if (week_time_start != lasted_week_time_start) {
+            if (week_list.length != 0) {
+              checkin_list.push(week_list)
+            }
             week_list = []
+            lasted_week_time_start = week_time_start
           }
           if (week_list.length == 0) {
-            var offset = date.getDay();
-            time = date.getTime()
             for (var i = 0; i < 7; i++) {
-              var date_tmp = new Date(time - day_long * (offset - i))
+              var date_tmp = new Date(lasted_week_time_start + day_long * i)
               week_list.push([date_tmp.getDate(), 0])
             }
           }
