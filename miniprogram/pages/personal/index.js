@@ -70,18 +70,18 @@ Page({
   },
 
   onShow() {
+    const day_long = 1000 * 60 * 60 * 24
     let self = this
     const db = wx.cloud.database()
     db.collection('zkf_check_in').where({
-    }).get({
+    }).orderBy('date', 'asc').get({
       success: function (res) {
         var week_lasted = -1
         var week_list = []
         var checkin_list = []
+        var time = 0
         for (var indexData in res.data) {
-          // console.log('res.data: ', res.data[indexData])
           var date = new Date(res.data[indexData].date);
-          // console.log('type: ', res.data[indexData].type, ', step: ', res.data[indexData].step, ', getDay: ', date.getDay())
           if (week_lasted <= date.getDay()) {
             week_lasted = date.getDay()
           } else {
@@ -91,8 +91,10 @@ Page({
           }
           if (week_list.length == 0) {
             var offset = date.getDay();
+            time = date.getTime()
             for (var i = 0; i < 7; i++) {
-              week_list.push([date.getDate() - offset + i, 0])
+              var date_tmp = new Date(time - day_long * (offset - i))
+              week_list.push([date_tmp.getDate(), 0])
             }
           }
           week_list[date.getDay()][1] = 1

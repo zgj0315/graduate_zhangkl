@@ -38,12 +38,13 @@ Page({
    * Lifecycle function--Called when page show
    */
   onShow() {
-    const date = new Date()
+    var date = new Date()
+    date = new Date(date.toLocaleDateString())
     let self = this
     const db = wx.cloud.database()
     db.collection('zkf_check_in').where({
       type: 'drug',
-      date: date.toLocaleDateString()
+      date: date.getTime()
     }).get({
       success: function (res) {
         for (var indexData in res.data) {
@@ -107,13 +108,14 @@ Page({
   },
 
   checkIn(e) {
-    const date = new Date()
+    var date = new Date()
+    date = new Date(date.toLocaleDateString())
     const db = wx.cloud.database()
     db.collection('zkf_check_in').add({
       data: {
         type: 'drug',
         step: e.currentTarget.dataset.step,
-        date: date.toLocaleDateString()
+        date: date.getTime()
       },
       success: function (res) {
         console.log(res)
